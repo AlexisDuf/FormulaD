@@ -1,0 +1,1700 @@
+<circuit id="0">
+    <name>Monaco</name>
+    <meteo>
+        <contexte temps="pluie">
+            <min>1</min>
+            <max>7</max>
+        </contexte>
+        <contexte temps="variable">
+            <min>8</min>
+            <max>12</max>
+        </contexte>
+        <contexte temps="beau">
+            <min>13</min>
+            <max>20</max>
+        </contexte>
+    </meteo>
+    <virages>
+        <virage id="0">
+            <name>Sainte dévote</name>
+            <arrets>1</arrets>
+            <trajectoire type="longue">7</trajectoire>
+            <trajectoire type="courte">3</trajectoire>
+            <direction>droite</direction>
+            <voie position="gauche">
+                <longueur>7</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>5</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>3</longueur>
+            </voie>
+        </virage>
+        <virage id="1">
+            <name>Casino</name>
+            <arrets>1</arrets>
+            <trajectoire type="longue">10</trajectoire>
+            <trajectoire type="courte">5</trajectoire>
+            <direction>gauche</direction>
+            <voie position="gauche">
+                <longueur>5</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>8</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>10</longueur>
+            </voie>
+        </virage>
+        <virage id="2">
+            <name>Casino</name>
+            <arrets>1</arrets>
+            <trajectoire type="longue">6</trajectoire>
+            <trajectoire type="courte">2</trajectoire>
+            <direction>droite</direction>
+            <voie position="gauche">
+                <longueur>6</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>4</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>2</longueur>
+            </voie>
+        </virage>
+        <virage id="3">
+            <name>Mirabeau</name>
+            <arrets>1</arrets>
+            <trajectoire type="longue">6</trajectoire>
+            <trajectoire type="courte">2</trajectoire>
+            <direction>droite</direction>
+            <voie position="gauche">
+                <longueur>6</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>4</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>2</longueur>
+            </voie>
+        </virage>
+        <virage id="4">
+            <name>Loews</name>
+            <arrets>3</arrets>
+            <trajectoire type="longue">18</trajectoire>
+            <trajectoire type="courte">8</trajectoire>
+            <direction>gauche</direction>
+            <voie position="gauche">
+                <longueur>12</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>12</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>12</longueur>
+            </voie>
+        </virage>
+        <virage id="5">
+            <name>Chicane</name>
+            <arrets>1</arrets>
+            <trajectoire type="longue">9</trajectoire>
+            <trajectoire type="courte">5</trajectoire>
+            <direction>gauche</direction>
+            <voie position="gauche">
+                <longueur>5</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>6</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>7</longueur>
+            </voie>
+        </virage>
+        <virage id="6">
+            <name>Bureau de tabac</name>
+            <arrets>1</arrets>
+            <trajectoire type="longue">7</trajectoire>
+            <trajectoire type="courte">3</trajectoire>
+            <direction>gauche</direction>
+            <voie position="gauche">
+                <longueur>3</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>5</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>7</longueur>
+            </voie>
+        </virage>
+        <virage id="7">
+            <name>"S" de la piscine</name>
+            <arrets>2</arrets>
+            <trajectoire type="longue">13</trajectoire>
+            <trajectoire type="courte">8</trajectoire>
+            <direction>gauche</direction>
+            <voie position="gauche">
+                <longueur>9</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>10</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>11</longueur>
+            </voie>
+        </virage>
+        <virage id="8">
+            <name>La rascasse</name>
+            <arrets>2</arrets>
+            <trajectoire type="longue">11</trajectoire>
+            <trajectoire type="courte">6</trajectoire>
+            <direction>gauche</direction>
+            <voie position="gauche">
+                <longueur>9</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>8</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>7</longueur>
+            </voie>
+        </virage>
+        <virage id="9">
+            <name>Anthony Noghes</name>
+            <arrets>1</arrets>
+            <trajectoire type="longue">6</trajectoire>
+            <trajectoire type="courte">2</trajectoire>
+            <direction>droite</direction>
+            <voie position="gauche">
+                <longueur>6</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>4</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>2</longueur>
+            </voie>
+        </virage>
+    </virages>
+    <lignesDroites>
+        <ligneDroite id="0" from="9" to="0">
+            <voie position="gauche">
+                <longueur>21</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>22</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>23</longueur>
+            </voie>
+        </ligneDroite>
+        <ligneDroite id="1" from="0" to="1">
+            <voie position="gauche">
+                <longueur>18</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>18</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>18</longueur>
+            </voie>
+        </ligneDroite>
+        <ligneDroite id="2" from="1" to="2">
+            <voie position="gauche">
+                <longueur>2</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>2</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>2</longueur>
+            </voie>
+        </ligneDroite>
+        <ligneDroite id="3" from="2" to="3">
+            <voie position="gauche">
+                <longueur>7</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>8</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>9</longueur>
+            </voie>
+        </ligneDroite>
+        <ligneDroite id="4" from="3" to="4">
+            <voie position="gauche">
+                <longueur>3</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>3</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>3</longueur>
+            </voie>
+        </ligneDroite>
+        <ligneDroite id="5" from="4" to="5">
+            <voie position="gauche">
+                <longueur>28</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>28</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>28</longueur>
+            </voie>
+        </ligneDroite>
+        <ligneDroite id="6" from="5" to="6">
+            <voie position="gauche">
+                <longueur>9</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>8</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>7</longueur>
+            </voie>
+        </ligneDroite>
+        <ligneDroite id="7" from="6" to="7">
+            <voie position="gauche">
+                <longueur>3</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>2</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>1</longueur>
+            </voie>
+        </ligneDroite>
+        <ligneDroite id="8" from="7" to="8">
+            <voie position="gauche">
+                <longueur>4</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>3</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>2</longueur>
+            </voie>
+        </ligneDroite>
+        <ligneDroite id="9" from="8" to="9">
+            <voie position="gauche">
+                <longueur>5</longueur>
+            </voie>
+            <voie position="milieu">
+                <longueur>6</longueur>
+            </voie>
+            <voie position="droite">
+                <longueur>7</longueur>
+            </voie>
+        </ligneDroite>
+    </lignesDroites>
+    <grille>
+        <ligneArrivee>
+            <traverse>case:0:g:16</traverse>
+            <traverse>case:0:d:16</traverse>
+        </ligneArrivee>
+        <polePosition>case:0:g:15</polePosition>
+    </grille>
+    <stands>
+        <entree>case:0:d:0</entree>
+        <entree>case:0:d:1</entree>
+        <sortie>case:0:d:18</sortie>
+        <sortie>case:0:d:19</sortie>
+        <longueur>18</longueur>
+        <premierStand>stand:3</premierStand>
+    </stands>
+    <successeurs>
+	<successeur from="virage:0:g:0" to="virage:0:g:1" />
+	<successeur from="virage:0:g:0" to="virage:0:m:0" />
+	<successeur from="virage:0:g:1" to="virage:0:g:2" />
+	<successeur from="virage:0:g:1" to="virage:0:m:1" />
+	<successeur from="virage:0:g:2" to="virage:0:g:3" />
+	<successeur from="virage:0:g:2" to="virage:0:m:2" />
+	<successeur from="virage:0:g:3" to="virage:0:g:4" />
+	<successeur from="virage:0:g:4" to="virage:0:m:3" />
+	<successeur from="virage:0:g:4" to="virage:0:g:5" />
+	<successeur from="virage:0:g:5" to="virage:0:m:4" />
+	<successeur from="virage:0:g:5" to="virage:0:g:6" />
+	<successeur from="virage:0:g:6" to="case:1:m:0" />
+	<successeur from="virage:0:g:6" to="case:1:g:0" />
+
+	<successeur from="virage:0:m:0" to="virage:0:d:0" />
+	<successeur from="virage:0:m:0" to="virage:0:m:1" />
+	<successeur from="virage:0:m:1" to="virage:0:d:1" />
+	<successeur from="virage:0:m:1" to="virage:0:m:2" />
+	<successeur from="virage:0:m:2" to="virage:0:m:3" />
+	<successeur from="virage:0:m:3" to="virage:0:d:2" />
+	<successeur from="virage:0:m:3" to="virage:0:m:4" />
+	<successeur from="virage:0:m:4" to="case:1:d:0" />
+	<successeur from="virage:0:m:4" to="case:1:m:0" />
+
+	<successeur from="virage:0:d:0" to="virage:0:d:1" />
+	<successeur from="virage:0:d:1" to="virage:0:d:2" />
+	<successeur from="virage:0:d:2" to="case:1:d:0" />
+
+        <successeur from="virage:9:g:0" to="virage:9:g:1" />
+        <successeur from="virage:9:g:0" to="virage:9:m:0" />
+        <successeur from="virage:9:g:1" to="virage:9:g:2" />
+        <successeur from="virage:9:g:2" to="virage:9:g:3" />
+        <successeur from="virage:9:g:3" to="virage:9:m:2" />
+        <successeur from="virage:9:g:3" to="virage:9:g:4" />
+        <successeur from="virage:9:g:4" to="virage:9:g:5" />
+        <successeur from="virage:9:g:4" to="virage:9:m:3" />
+        <successeur from="virage:9:g:5" to="case:0:g:0" />
+        <successeur from="virage:9:g:5" to="case:0:m:0" />
+
+        <successeur from="virage:9:m:0" to="virage:9:m:1" />
+        <successeur from="virage:9:m:0" to="virage:9:d:0" />
+        <successeur from="virage:9:m:1" to="virage:9:m:2" />
+        <successeur from="virage:9:m:2" to="virage:9:d:1" />
+        <successeur from="virage:9:m:2" to="virage:9:m:3" />
+        <successeur from="virage:9:m:3" to="case:0:m:0" />
+        <successeur from="virage:9:m:3" to="case:0:d:0" />
+
+        <successeur from="virage:9:d:0" to="virage:9:d:1" />
+        <successeur from="virage:9:d:1" to="case:0:d:0" />
+
+        <successeur from="virage:8:d:0" to="virage:8:d:1" />
+        <successeur from="virage:8:d:0" to="virage:8:m:0" />
+        <successeur from="virage:8:d:1" to="virage:8:m:1" />
+        <successeur from="virage:8:d:1" to="virage:8:d:2" />
+        <successeur from="virage:8:d:2" to="virage:8:d:3" />
+        <successeur from="virage:8:d:3" to="virage:8:d:4" />
+        <successeur from="virage:8:d:4" to="virage:8:d:5" />
+        <successeur from="virage:8:d:5" to="virage:8:d:6" />
+        <successeur from="virage:8:d:6" to="case:9:d:0" />
+
+        <successeur from="virage:8:m:0" to="virage:8:m:1" />
+        <successeur from="virage:8:m:0" to="virage:8:g:0" />
+        <successeur from="virage:8:m:1" to="virage:8:d:3" />
+        <successeur from="virage:8:m:1" to="virage:8:m:2" />
+        <successeur from="virage:8:m:2" to="virage:8:m:3" />
+        <successeur from="virage:8:m:3" to="virage:8:d:4" />
+        <successeur from="virage:8:m:3" to="virage:8:m:4" />
+        <successeur from="virage:8:m:4" to="virage:8:m:5" />
+        <successeur from="virage:8:m:5" to="virage:8:m:6" />
+        <successeur from="virage:8:m:6" to="virage:8:d:6" />
+        <successeur from="virage:8:m:6" to="virage:8:m:7" />
+        <successeur from="virage:8:m:7" to="case:9:d:0" />
+        <successeur from="virage:8:m:7" to="case:9:m:0" />
+
+        <successeur from="virage:8:g:0" to="virage:8:m:2" />
+        <successeur from="virage:8:g:0" to="virage:8:g:1" />
+        <successeur from="virage:8:g:1" to="virage:8:m:3" />
+        <successeur from="virage:8:g:1" to="virage:8:g:2" />
+        <successeur from="virage:8:g:2" to="virage:8:g:3" />
+        <successeur from="virage:8:g:3" to="virage:8:m:4" />
+        <successeur from="virage:8:g:3" to="virage:8:g:4" />
+        <successeur from="virage:8:g:4" to="virage:8:m:5" />
+        <successeur from="virage:8:g:4" to="virage:8:g:5" />
+        <successeur from="virage:8:g:5" to="virage:8:g:6" />
+        <successeur from="virage:8:g:6" to="virage:8:m:6" />
+        <successeur from="virage:8:g:6" to="virage:8:g:7" />
+        <successeur from="virage:8:g:7" to="virage:8:m:7" />
+        <successeur from="virage:8:g:7" to="virage:8:g:8" />
+        <successeur from="virage:8:g:8" to="case:9:m:0" />
+        <successeur from="virage:8:g:8" to="case:9:g:0" />
+
+        <successeur from="virage:7:d:0" to="virage:7:d:1" />
+        <successeur from="virage:7:d:0" to="virage:7:m:0" />
+        <successeur from="virage:7:d:1" to="virage:7:m:1" />
+        <successeur from="virage:7:d:1" to="virage:7:d:2" />
+        <successeur from="virage:7:d:2" to="virage:7:d:3" />
+        <successeur from="virage:7:d:3" to="virage:7:d:4" />
+        <successeur from="virage:7:d:4" to="virage:7:d:5" />
+        <successeur from="virage:7:d:5" to="virage:7:d:6" />
+        <successeur from="virage:7:d:6" to="virage:7:m:7" />
+        <successeur from="virage:7:d:6" to="virage:7:d:7" />
+        <successeur from="virage:7:d:7" to="virage:7:d:8" />
+        <successeur from="virage:7:d:8" to="virage:7:m:8" />
+        <successeur from="virage:7:d:8" to="virage:7:d:9" />
+        <successeur from="virage:7:d:9" to="virage:7:m:9" />
+        <successeur from="virage:7:d:9" to="virage:7:d:10" />
+        <successeur from="virage:7:d:10" to="case:8:m:0" />
+        <successeur from="virage:7:d:10" to="case:8:d:0" />
+
+        <successeur from="virage:7:m:0" to="virage:7:g:0" />
+        <successeur from="virage:7:m:0" to="virage:7:m:1" />
+        <successeur from="virage:7:m:1" to="virage:7:d:3" />
+        <successeur from="virage:7:m:1" to="virage:7:m:2" />
+        <successeur from="virage:7:m:2" to="virage:7:m:3" />
+        <successeur from="virage:7:m:3" to="virage:7:d:4" />
+        <successeur from="virage:7:m:3" to="virage:7:m:4" />
+        <successeur from="virage:7:m:4" to="virage:7:d:5" />
+        <successeur from="virage:7:m:4" to="virage:7:m:5" />
+        <successeur from="virage:7:m:5" to="virage:7:d:6" />
+        <successeur from="virage:7:m:5" to="virage:7:m:6" />
+        <successeur from="virage:7:m:6" to="virage:7:g:7" />
+        <successeur from="virage:7:m:6" to="virage:7:m:7" />
+        <successeur from="virage:7:m:7" to="virage:7:m:8" />
+        <successeur from="virage:7:m:8" to="virage:7:g:8" />
+        <successeur from="virage:7:m:8" to="virage:7:m:9" />
+        <successeur from="virage:7:m:9" to="case:8:g:0" />
+        <successeur from="virage:7:m:9" to="case:8:m:0" />
+
+        <successeur from="virage:7:g:0" to="virage:7:m:2" />
+        <successeur from="virage:7:g:0" to="virage:7:g:1" />
+        <successeur from="virage:7:g:1" to="virage:7:g:2" />
+        <successeur from="virage:7:g:2" to="virage:7:m:3" />
+        <successeur from="virage:7:g:2" to="virage:7:g:3" />
+        <successeur from="virage:7:g:3" to="virage:7:m:4" />
+        <successeur from="virage:7:g:3" to="virage:7:g:4" />
+        <successeur from="virage:7:g:4" to="virage:7:m:5" />
+        <successeur from="virage:7:g:4" to="virage:7:g:5" />
+        <successeur from="virage:7:g:5" to="virage:7:m:6" />
+        <successeur from="virage:7:g:5" to="virage:7:g:6" />
+        <successeur from="virage:7:g:6" to="virage:7:g:7" />
+        <successeur from="virage:7:g:7" to="virage:7:g:8" />
+        <successeur from="virage:7:g:8" to="case:8:g:0" />
+
+        <successeur from="virage:6:d:0" to="virage:6:m:0" />
+        <successeur from="virage:6:d:0" to="virage:6:d:1" />
+        <successeur from="virage:6:d:1" to="virage:6:m:1" />
+        <successeur from="virage:6:d:1" to="virage:6:d:2" />
+        <successeur from="virage:6:d:2" to="virage:6:m:2" />
+        <successeur from="virage:6:d:2" to="virage:6:d:3" />
+        <successeur from="virage:6:d:3" to="virage:6:d:4" />
+        <successeur from="virage:6:d:4" to="virage:6:m:3" />
+        <successeur from="virage:6:d:4" to="virage:6:d:5" />
+        <successeur from="virage:6:d:5" to="virage:6:m:4" />
+        <successeur from="virage:6:d:5" to="virage:6:d:6" />
+        <successeur from="virage:6:d:6" to="case:7:m:0" />
+        <successeur from="virage:6:d:6" to="case:7:d:0" />
+
+        <successeur from="virage:6:m:0" to="virage:6:g:0" />
+        <successeur from="virage:6:m:0" to="virage:6:m:1" />
+        <successeur from="virage:6:m:1" to="virage:6:g:1" />
+        <successeur from="virage:6:m:1" to="virage:6:m:2" />
+        <successeur from="virage:6:m:2" to="virage:6:m:3" />
+        <successeur from="virage:6:m:3" to="virage:6:g:2" />
+        <successeur from="virage:6:m:3" to="virage:6:m:4" />
+        <successeur from="virage:6:m:4" to="case:7:g:0" />
+        <successeur from="virage:6:m:4" to="case:7:m:0" />
+
+        <successeur from="virage:6:g:0" to="virage:6:g:1" />
+        <successeur from="virage:6:g:1" to="virage:6:g:2" />
+        <successeur from="virage:6:g:2" to="case:7:g:0" />
+
+        <successeur from="virage:5:d:0" to="virage:5:m:0" />
+        <successeur from="virage:5:d:0" to="virage:5:d:1" />
+        <successeur from="virage:5:d:1" to="virage:5:m:1" />
+        <successeur from="virage:5:d:1" to="virage:5:d:2" />
+        <successeur from="virage:5:d:2" to="virage:5:d:3" />
+        <successeur from="virage:5:d:3" to="virage:5:d:4" />
+        <successeur from="virage:5:d:4" to="virage:5:d:5" />
+        <successeur from="virage:5:d:5" to="virage:5:m:5" />
+        <successeur from="virage:5:d:5" to="virage:5:d:6" />
+        <successeur from="virage:5:d:6" to="case:6:m:0" />
+        <successeur from="virage:5:d:6" to="case:6:d:0" />
+
+        <successeur from="virage:5:m:0" to="virage:5:g:0" />
+        <successeur from="virage:5:m:0" to="virage:5:m:1" />
+        <successeur from="virage:5:m:1" to="virage:5:m:2" />
+        <successeur from="virage:5:m:2" to="virage:5:m:3" />
+        <successeur from="virage:5:m:3" to="virage:5:d:4" />
+        <successeur from="virage:5:m:3" to="virage:5:m:4" />
+        <successeur from="virage:5:m:4" to="virage:5:d:5" />
+        <successeur from="virage:5:m:4" to="virage:5:m:5" />
+        <successeur from="virage:5:m:5" to="case:6:m:0" />
+        <successeur from="virage:5:m:5" to="case:6:g:0" />
+
+        <successeur from="virage:5:g:0" to="virage:5:g:1" />
+        <successeur from="virage:5:g:1" to="virage:5:m:3" />
+        <successeur from="virage:5:g:1" to="virage:5:g:2" />
+        <successeur from="virage:5:g:2" to="virage:5:g:3" />
+        <successeur from="virage:5:g:3" to="virage:5:m:4" />
+        <successeur from="virage:5:g:3" to="virage:5:g:4" />
+        <successeur from="virage:5:g:4" to="virage:5:m:5" />
+        <successeur from="virage:5:g:4" to="case:6:g:0" />
+
+        <successeur from="virage:4:d:0" to="virage:4:m:0" />
+        <successeur from="virage:4:d:0" to="virage:4:d:1" />
+        <successeur from="virage:4:d:1" to="virage:4:m:1" />
+        <successeur from="virage:4:d:1" to="virage:4:d:2" />
+        <successeur from="virage:4:d:2" to="virage:4:d:3" />
+        <successeur from="virage:4:d:3" to="virage:4:m:2" />
+        <successeur from="virage:4:d:3" to="virage:4:d:4" />
+        <successeur from="virage:4:d:4" to="virage:4:d:5" />
+        <successeur from="virage:4:d:5" to="virage:4:m:3" />
+        <successeur from="virage:4:d:5" to="virage:4:d:6" />
+        <successeur from="virage:4:d:6" to="virage:4:m:4" />
+        <successeur from="virage:4:d:6" to="virage:4:d:7" />
+        <successeur from="virage:4:d:7" to="virage:4:d:8" />
+        <successeur from="virage:4:d:8" to="virage:4:d:9" />
+        <successeur from="virage:4:d:9" to="virage:4:d:10" />
+        <successeur from="virage:4:d:10" to="virage:4:d:11" />
+        <successeur from="virage:4:d:11" to="case:5:d:0" />
+
+        <successeur from="virage:4:m:0" to="virage:4:m:1" />
+        <successeur from="virage:4:m:0" to="virage:4:g:0" />
+        <successeur from="virage:4:m:1" to="virage:4:m:2" />
+        <successeur from="virage:4:m:2" to="virage:4:m:3" />
+        <successeur from="virage:4:m:3" to="virage:4:g:1" />
+        <successeur from="virage:4:m:3" to="virage:4:m:4" />
+        <successeur from="virage:4:m:4" to="virage:4:d:7" />
+        <successeur from="virage:4:m:4" to="virage:4:m:5" />
+        <successeur from="virage:4:m:5" to="virage:4:d:8" />
+        <successeur from="virage:4:m:5" to="virage:4:m:6" />
+        <successeur from="virage:4:m:6" to="virage:4:m:7" />
+        <successeur from="virage:4:m:7" to="virage:4:d:9" />
+        <successeur from="virage:4:m:7" to="virage:4:m:8" />
+        <successeur from="virage:4:m:8" to="virage:4:d:10" />
+        <successeur from="virage:4:m:8" to="virage:4:m:9" />
+        <successeur from="virage:4:m:9" to="virage:4:d:11" />
+        <successeur from="virage:4:m:9" to="virage:4:m:10" />
+        <successeur from="virage:4:m:10" to="virage:4:m:11" />
+        <successeur from="virage:4:m:11" to="case:5:d:0" />
+        <successeur from="virage:4:m:11" to="case:5:m:0" />
+
+        <successeur from="virage:4:g:0" to="virage:4:g:1" />
+        <successeur from="virage:4:g:1" to="virage:4:m:4" />
+        <successeur from="virage:4:g:1" to="virage:4:g:2" />
+        <successeur from="virage:4:g:2" to="virage:4:m:5" />
+        <successeur from="virage:4:g:2" to="virage:4:g:3" />
+        <successeur from="virage:4:g:3" to="virage:4:m:6" />
+        <successeur from="virage:4:g:3" to="virage:4:g:4" />
+        <successeur from="virage:4:g:4" to="virage:4:g:5" />
+        <successeur from="virage:4:g:5" to="virage:4:m:7" />
+        <successeur from="virage:4:g:5" to="virage:4:g:6" />
+        <successeur from="virage:4:g:6" to="virage:4:m:8" />
+        <successeur from="virage:4:g:6" to="virage:4:g:7" />
+        <successeur from="virage:4:g:7" to="virage:4:m:9" />
+        <successeur from="virage:4:g:7" to="virage:4:g:8" />
+        <successeur from="virage:4:g:8" to="virage:4:m:10" />
+        <successeur from="virage:4:g:8" to="virage:4:g:9" />
+        <successeur from="virage:4:g:9" to="virage:4:g:10" />
+        <successeur from="virage:4:g:10" to="virage:4:m:11" />
+        <successeur from="virage:4:g:10" to="virage:4:g:11" />
+        <successeur from="virage:4:g:11" to="case:5:m:0" />
+        <successeur from="virage:4:g:11" to="case:5:g:0" />
+
+        <successeur from="virage:3:g:0" to="virage:3:g:1" />
+        <successeur from="virage:3:g:0" to="virage:3:m:0" />
+        <successeur from="virage:3:g:1" to="virage:3:m:1" />
+        <successeur from="virage:3:g:1" to="virage:3:g:2" />
+        <successeur from="virage:3:g:2" to="virage:3:g:3" />
+        <successeur from="virage:3:g:2" to="virage:3:m:2" />
+        <successeur from="virage:3:g:3" to="virage:3:g:4" />
+        <successeur from="virage:3:g:4" to="virage:3:m:3" />
+        <successeur from="virage:3:g:4" to="virage:3:g:5" />
+        <successeur from="virage:3:g:5" to="case:4:m:0" />
+        <successeur from="virage:3:g:5" to="case:4:g:0" />
+
+        <successeur from="virage:3:m:0" to="virage:3:m:1" />
+        <successeur from="virage:3:m:0" to="virage:3:d:0" />
+        <successeur from="virage:3:m:1" to="virage:3:m:2" />
+        <successeur from="virage:3:m:2" to="virage:3:d:1" />
+        <successeur from="virage:3:m:2" to="virage:3:m:3" />
+        <successeur from="virage:3:m:3" to="case:4:d:0" />
+        <successeur from="virage:3:m:3" to="case:4:m:0" />
+
+        <successeur from="virage:3:d:0" to="virage:3:d:1" />
+        <successeur from="virage:3:d:1" to="case:4:d:0" />
+
+        <successeur from="virage:2:g:0" to="virage:2:m:0" />
+        <successeur from="virage:2:g:0" to="virage:2:g:1" />
+        <successeur from="virage:2:g:1" to="virage:2:m:1" />
+        <successeur from="virage:2:g:1" to="virage:2:g:2" />
+        <successeur from="virage:2:g:2" to="virage:2:m:2" />
+        <successeur from="virage:2:g:2" to="virage:2:g:3" />
+        <successeur from="virage:2:g:3" to="virage:2:g:4" />
+        <successeur from="virage:2:g:4" to="virage:2:m:3" />
+        <successeur from="virage:2:g:4" to="virage:2:g:5" />
+        <successeur from="virage:2:g:5" to="case:3:m:0" />
+        <successeur from="virage:2:g:5" to="case:3:g:0" />
+
+        <successeur from="virage:2:m:0" to="virage:2:d:0" />
+        <successeur from="virage:2:m:0" to="virage:2:m:1" />
+        <successeur from="virage:2:m:1" to="virage:2:d:1" />
+        <successeur from="virage:2:m:1" to="virage:2:m:2" />
+        <successeur from="virage:2:m:2" to="virage:2:m:3" />
+        <successeur from="virage:2:m:3" to="case:3:d:0" />
+        <successeur from="virage:2:m:3" to="case:3:m:0" />
+
+        <successeur from="virage:2:d:0" to="virage:2:d:1" />
+        <successeur from="virage:2:d:1" to="case:3:d:0" />
+
+        <successeur from="virage:1:d:0" to="virage:1:d:1" />
+        <successeur from="virage:1:d:0" to="virage:1:m:0" />
+        <successeur from="virage:1:d:1" to="virage:1:d:2" />
+        <successeur from="virage:1:d:1" to="virage:1:m:1" />
+        <successeur from="virage:1:d:2" to="virage:1:m:2" />
+        <successeur from="virage:1:d:2" to="virage:1:d:3" />
+        <successeur from="virage:1:d:3" to="virage:1:m:3" />
+        <successeur from="virage:1:d:3" to="virage:1:d:4" />
+        <successeur from="virage:1:d:4" to="virage:1:d:5" />
+        <successeur from="virage:1:d:5" to="virage:1:m:4" />
+        <successeur from="virage:1:d:5" to="virage:1:d:6" />
+        <successeur from="virage:1:d:6" to="virage:1:m:5" />
+        <successeur from="virage:1:d:6" to="virage:1:d:7" />
+        <successeur from="virage:1:d:7" to="virage:1:m:6" />
+        <successeur from="virage:1:d:7" to="virage:1:d:8" />
+        <successeur from="virage:1:d:8" to="virage:1:m:7" />
+        <successeur from="virage:1:d:8" to="virage:1:d:9" />
+        <successeur from="virage:1:d:9" to="case:2:m:0" />
+        <successeur from="virage:1:d:9" to="case:2:d:0" />
+
+        <successeur from="virage:1:m:0" to="virage:1:g:0" />
+        <successeur from="virage:1:m:1" to="virage:1:m:2" />
+        <successeur from="virage:1:m:2" to="virage:1:g:1" />
+        <successeur from="virage:1:m:2" to="virage:1:m:3" />
+        <successeur from="virage:1:m:3" to="virage:1:g:2" />
+        <successeur from="virage:1:m:3" to="virage:1:m:4" />
+        <successeur from="virage:1:m:4" to="virage:1:g:3" />
+        <successeur from="virage:1:m:4" to="virage:1:m:5" />
+        <successeur from="virage:1:m:5" to="virage:1:m:6" />
+        <successeur from="virage:1:m:6" to="virage:1:g:4" />
+        <successeur from="virage:1:m:6" to="virage:1:m:7" />
+        <successeur from="virage:1:m:7" to="case:2:g:0" />
+        <successeur from="virage:1:m:7" to="case:2:m:0" />
+
+        <successeur from="virage:1:g:0" to="virage:1:g:1" />
+        <successeur from="virage:1:g:1" to="virage:1:g:2" />
+        <successeur from="virage:1:g:2" to="virage:1:g:3" />
+        <successeur from="virage:1:g:3" to="virage:1:g:4" />
+        <successeur from="virage:1:g:4" to="case:2:g:0" />
+
+
+        <successeur from="case:1:d:0" to="case:1:m:0" />
+        <successeur from="case:1:d:0" to="case:1:d:1" />
+        <successeur from="case:1:m:0" to="case:1:d:1" />
+        <successeur from="case:1:m:0" to="case:1:m:1" />
+        <successeur from="case:1:m:0" to="case:1:g:0" />
+        <successeur from="case:1:g:0" to="case:1:m:1" />
+        <successeur from="case:1:g:0" to="case:1:g:1" />
+
+        <successeur from="case:2:g:0" to="case:2:g:1" />
+        <successeur from="case:2:g:0" to="case:2:m:0" />
+        <successeur from="case:2:m:0" to="case:2:g:1" />
+        <successeur from="case:2:m:0" to="case:2:m:1" />
+        <successeur from="case:2:m:0" to="case:2:d:0" />
+        <successeur from="case:2:d:0" to="case:2:m:1" />
+        <successeur from="case:2:d:0" to="case:2:d:1" />
+
+        <successeur from="case:3:d:0" to="case:3:m:0" />
+        <successeur from="case:3:d:0" to="case:3:d:1" />
+        <successeur from="case:3:m:0" to="case:3:d:1" />
+        <successeur from="case:3:m:0" to="case:3:m:1" />
+        <successeur from="case:3:m:0" to="case:3:g:0" />
+        <successeur from="case:3:g:0" to="case:3:g:1" />
+        <successeur from="case:3:g:0" to="case:3:m:1" />
+
+        <successeur from="case:4:d:0" to="case:4:d:1" />
+        <successeur from="case:4:d:0" to="case:4:m:0" />
+        <successeur from="case:4:m:0" to="case:4:d:1" />
+        <successeur from="case:4:m:0" to="case:4:m:1" />
+        <successeur from="case:4:m:0" to="case:4:g:0" />
+        <successeur from="case:4:g:0" to="case:4:m:1" />
+        <successeur from="case:4:g:0" to="case:4:g:1" />
+
+        <successeur from="case:5:d:0" to="case:5:d:1" />
+        <successeur from="case:5:d:0" to="case:5:m:0" />
+        <successeur from="case:5:m:0" to="case:5:d:1" />
+        <successeur from="case:5:m:0" to="case:5:m:1" />
+        <successeur from="case:5:m:0" to="case:5:g:0" />
+        <successeur from="case:5:g:0" to="case:5:m:1" />
+        <successeur from="case:5:g:0" to="case:5:g:1" />
+
+        <successeur from="case:6:g:0" to="case:6:g:1" />
+        <successeur from="case:6:g:0" to="case:6:m:0" />
+        <successeur from="case:6:m:0" to="case:6:g:1" />
+        <successeur from="case:6:m:0" to="case:6:m:1" />
+        <successeur from="case:6:m:0" to="case:6:d:0" />
+        <successeur from="case:6:d:0" to="case:6:m:1" />
+        <successeur from="case:6:d:0" to="case:6:d:1" />
+
+        <successeur from="case:7:d:0" to="virage:7:d:0" />
+        <successeur from="case:7:d:0" to="case:7:m:1" />
+        <successeur from="case:7:m:0" to="case:7:d:0" />
+        <successeur from="case:7:m:0" to="case:7:m:1" />
+        <successeur from="case:7:m:0" to="case:7:g:1" />
+        <successeur from="case:7:g:0" to="case:7:m:0" />
+        <successeur from="case:7:g:0" to="case:7:g:1" />
+
+        <successeur from="case:8:g:0" to="case:8:g:1" />
+        <successeur from="case:8:g:0" to="case:8:m:0" />
+        <successeur from="case:8:m:0" to="case:8:g:1" />
+        <successeur from="case:8:m:0" to="case:8:m:1" />
+        <successeur from="case:8:m:0" to="case:8:d:0" />
+        <successeur from="case:8:d:0" to="case:8:m:1" />
+
+	<successeur from="case:9:d:0" to="case:9:m:0" />
+	<successeur from="case:9:d:0" to="case:9:d:1" />
+	<successeur from="case:9:m:0" to="case:9:d:1" />
+	<successeur from="case:9:m:0" to="case:9:m:1" />
+	<successeur from="case:9:m:0" to="case:9:g:0" />
+	<successeur from="case:9:g:0" to="case:9:m:1" />
+	<successeur from="case:9:g:0" to="case:9:g:1" />
+
+	<successeur from="case:0:d:0" to="case:0:d:1" />
+	<successeur from="case:0:d:0" to="case:0:m:0" />
+	<successeur from="case:0:m:0" to="case:0:d:1" />
+	<successeur from="case:0:m:0" to="case:0:m:1" />
+	<successeur from="case:0:m:0" to="case:0:g:0" />
+	<successeur from="case:0:g:0" to="case:0:g:1" />
+	<successeur from="case:0:g:0" to="case:0:m:1" />
+
+	<successeur from="case:0:m:21" to="virage:0:m:0" />
+	<successeur from="case:0:d:22" to="virage:0:d:0" />
+	<successeur from="case:1:g:17" to="virage:1:g:0" />
+	<successeur from="case:1:m:17" to="virage:1:m:0" />
+	<successeur from="case:2:m:1" to="virage:2:m:0" />
+	<successeur from="case:2:d:1" to="virage:2:d:0" />
+	<successeur from="case:3:m:7" to="virage:3:m:0" />
+	<successeur from="case:3:d:8" to="virage:3:d:0" />
+	<successeur from="case:4:m:2" to="virage:4:m:0" />
+	<successeur from="case:4:g:2" to="virage:4:g:0" />
+	<successeur from="case:5:g:27" to="virage:5:g:0" />
+	<successeur from="case:5:m:27" to="virage:5:m:0" />
+	<successeur from="case:6:g:8" to="virage:6:g:0" />
+	<successeur from="case:6:m:7" to="virage:6:m:0" />
+	<successeur from="case:7:m:1" to="virage:7:m:0" />
+	<successeur from="case:7:g:2" to="virage:7:g:0" />
+	<successeur from="case:8:m:2" to="virage:8:m:0" />
+	<successeur from="case:8:g:3" to="virage:8:g:0" />
+	<successeur from="case:9:m:5" to="virage:9:m:0" />
+	<successeur from="case:9:d:6" to="virage:9:d:0" />
+    </successeurs>
+    <voisins>
+	<voisin from="virage:0:g:0" to="case:0:g:20" />
+	<voisin from="virage:0:g:0" to="case:0:m:21" />
+	<voisin from="virage:0:g:0" to="virage:0:m:0" />
+	<voisin from="virage:0:g:0" to="virage:0:g:1" />
+	<voisin from="virage:0:g:1" to="virage:0:g:0" />
+	<voisin from="virage:0:g:1" to="virage:0:m:0" />
+	<voisin from="virage:0:g:1" to="virage:0:m:1" />
+	<voisin from="virage:0:g:1" to="virage:0:g:2" />
+	<voisin from="virage:0:g:2" to="virage:0:g:1" />
+	<voisin from="virage:0:g:2" to="virage:0:m:1" />
+	<voisin from="virage:0:g:2" to="virage:0:m:2" />
+	<voisin from="virage:0:g:2" to="virage:0:g:3" />
+	<voisin from="virage:0:g:3" to="virage:0:g:2" />
+	<voisin from="virage:0:g:3" to="virage:0:m:2" />
+	<voisin from="virage:0:g:3" to="virage:0:g:4" />
+	<voisin from="virage:0:g:4" to="virage:0:g:3" />
+	<voisin from="virage:0:g:4" to="virage:0:m:2" />
+	<voisin from="virage:0:g:4" to="virage:0:m:3" />
+	<voisin from="virage:0:g:4" to="virage:0:g:5" />
+	<voisin from="virage:0:g:5" to="virage:0:g:4" />
+	<voisin from="virage:0:g:5" to="virage:0:m:3" />
+	<voisin from="virage:0:g:5" to="virage:0:m:4" />
+	<voisin from="virage:0:g:5" to="virage:0:g:6" />
+	<voisin from="virage:0:g:6" to="virage:0:g:5" />
+	<voisin from="virage:0:g:6" to="virage:0:m:4" />
+	<voisin from="virage:0:g:6" to="case:1:m:0" />
+	<voisin from="virage:0:g:6" to="case:1:g:0" />
+
+	<voisin from="virage:0:m:0" to="case:0:m:21" />
+	<voisin from="virage:0:m:0" to="virage:0:g:0" />
+	<voisin from="virage:0:m:0" to="virage:0:g:1" />
+	<voisin from="virage:0:m:0" to="virage:0:m:1" />
+	<voisin from="virage:0:m:0" to="virage:0:d:0" />
+	<voisin from="virage:0:m:0" to="case:0:d:22" />
+	<voisin from="virage:0:m:1" to="virage:0:m:0" />
+	<voisin from="virage:0:m:1" to="virage:0:g:1" />
+	<voisin from="virage:0:m:1" to="virage:0:g:2" />
+	<voisin from="virage:0:m:1" to="virage:0:m:2" />
+	<voisin from="virage:0:m:1" to="virage:0:d:1" />
+	<voisin from="virage:0:m:1" to="virage:0:d:0" />
+	<voisin from="virage:0:m:2" to="virage:0:m:1" />
+	<voisin from="virage:0:m:2" to="virage:0:g:2" />
+	<voisin from="virage:0:m:2" to="virage:0:g:3" />
+	<voisin from="virage:0:m:2" to="virage:0:g:4" />
+	<voisin from="virage:0:m:2" to="virage:0:m:3" />
+	<voisin from="virage:0:m:2" to="virage:0:d:1" />
+	<voisin from="virage:0:m:3" to="virage:0:m:2" />
+	<voisin from="virage:0:m:3" to="virage:0:g:4" />
+	<voisin from="virage:0:m:3" to="virage:0:g:5" />
+	<voisin from="virage:0:m:3" to="virage:0:m:4" />
+	<voisin from="virage:0:m:3" to="virage:0:d:2" />
+	<voisin from="virage:0:m:3" to="virage:0:d:1" />
+	<voisin from="virage:0:m:4" to="virage:0:m:3" />
+	<voisin from="virage:0:m:4" to="virage:0:g:5" />
+	<voisin from="virage:0:m:4" to="virage:0:g:6" />
+	<voisin from="virage:0:m:4" to="case:1:m:0" />
+	<voisin from="virage:0:m:4" to="case:1:d:0" />
+	<voisin from="virage:0:m:4" to="virage:0:d:2" />
+
+	<voisin from="virage:0:d:0" to="case:0:d:22" />
+	<voisin from="virage:0:d:0" to="virage:0:m:0" />
+	<voisin from="virage:0:d:0" to="virage:0:m:1" />
+	<voisin from="virage:0:d:0" to="virage:0:d:1" />
+	<voisin from="virage:0:d:1" to="virage:0:d:0" />
+	<voisin from="virage:0:d:1" to="virage:0:m:1" />
+	<voisin from="virage:0:d:1" to="virage:0:m:2" />
+	<voisin from="virage:0:d:1" to="virage:0:m:3" />
+	<voisin from="virage:0:d:1" to="virage:0:d:2" />
+	<voisin from="virage:0:d:2" to="virage:0:d:1" />
+	<voisin from="virage:0:d:2" to="virage:0:m:3" />
+	<voisin from="virage:0:d:2" to="virage:0:m:4" />
+	<voisin from="virage:0:d:2" to="case:1:d:0" />
+
+	<voisin from="virage:1:g:0" to="case:1:g:17" />
+	<voisin from="virage:1:g:0" to="virage:1:m:0" />
+	<voisin from="virage:1:g:0" to="virage:1:m:1" />
+	<voisin from="virage:1:g:0" to="virage:1:m:2" />
+	<voisin from="virage:1:g:0" to="virage:1:g:1" />
+	<voisin from="virage:1:g:1" to="virage:1:g:0" />
+	<voisin from="virage:1:g:1" to="virage:1:m:2" />
+	<voisin from="virage:1:g:1" to="virage:1:m:3" />
+	<voisin from="virage:1:g:1" to="virage:1:g:2" />
+	<voisin from="virage:1:g:2" to="virage:1:g:1" />
+	<voisin from="virage:1:g:2" to="virage:1:m:3" />
+	<voisin from="virage:1:g:2" to="virage:1:m:4" />
+	<voisin from="virage:1:g:2" to="virage:1:g:3" />
+	<voisin from="virage:1:g:3" to="virage:1:g:2" />
+	<voisin from="virage:1:g:3" to="virage:1:m:4" />
+	<voisin from="virage:1:g:3" to="virage:1:m:5" />
+	<voisin from="virage:1:g:3" to="virage:1:m:6" />
+	<voisin from="virage:1:g:3" to="virage:1:g:4" />
+	<voisin from="virage:1:g:4" to="virage:1:g:3" />
+	<voisin from="virage:1:g:4" to="virage:1:m:6" />
+	<voisin from="virage:1:g:4" to="virage:1:m:7" />
+	<voisin from="virage:1:g:4" to="case:2:g:0" />
+
+	<voisin from="virage:1:m:0" to="case:1:m:17" />
+	<voisin from="virage:1:m:0" to="case:1:g:17" />
+	<voisin from="virage:1:m:0" to="virage:1:g:0" />
+	<voisin from="virage:1:m:0" to="virage:1:m:1" />
+	<voisin from="virage:1:m:0" to="virage:1:d:1" />
+	<voisin from="virage:1:m:0" to="virage:1:d:0" />
+	<voisin from="virage:1:m:1" to="virage:1:m:0" />
+	<voisin from="virage:1:m:1" to="virage:1:g:0" />
+	<voisin from="virage:1:m:1" to="virage:1:m:2" />
+	<voisin from="virage:1:m:1" to="virage:1:d:2" />
+	<voisin from="virage:1:m:1" to="virage:1:d:1" />
+	<voisin from="virage:1:m:2" to="virage:1:m:1" />
+	<voisin from="virage:1:m:2" to="virage:1:g:0" />
+	<voisin from="virage:1:m:2" to="virage:1:g:1" />
+	<voisin from="virage:1:m:2" to="virage:1:m:3" />
+	<voisin from="virage:1:m:2" to="virage:1:d:3" />
+	<voisin from="virage:1:m:2" to="virage:1:d:2" />
+	<voisin from="virage:1:m:3" to="virage:1:m:2" />
+	<voisin from="virage:1:m:3" to="virage:1:g:1" />
+	<voisin from="virage:1:m:3" to="virage:1:g:2" />
+	<voisin from="virage:1:m:3" to="virage:1:m:4" />
+	<voisin from="virage:1:m:3" to="virage:1:d:5" />
+	<voisin from="virage:1:m:3" to="virage:1:d:4" />
+	<voisin from="virage:1:m:3" to="virage:1:d:3" />
+	<voisin from="virage:1:m:4" to="virage:1:m:3" />
+	<voisin from="virage:1:m:4" to="virage:1:g:2" />
+	<voisin from="virage:1:m:4" to="virage:1:g:3" />
+	<voisin from="virage:1:m:4" to="virage:1:m:5" />
+	<voisin from="virage:1:m:4" to="virage:1:d:6" />
+	<voisin from="virage:1:m:4" to="virage:1:d:5" />
+	<voisin from="virage:1:m:5" to="virage:1:m:4" />
+	<voisin from="virage:1:m:5" to="virage:1:g:3" />
+	<voisin from="virage:1:m:5" to="virage:1:m:6" />
+	<voisin from="virage:1:m:5" to="virage:1:d:7" />
+	<voisin from="virage:1:m:5" to="virage:1:d:6" />
+	<voisin from="virage:1:m:6" to="virage:1:m:5" />
+	<voisin from="virage:1:m:6" to="virage:1:g:3" />
+	<voisin from="virage:1:m:6" to="virage:1:g:4" />
+	<voisin from="virage:1:m:6" to="virage:1:m:7" />
+	<voisin from="virage:1:m:6" to="virage:1:d:8" />
+	<voisin from="virage:1:m:6" to="virage:1:d:7" />
+	<voisin from="virage:1:m:7" to="virage:1:m:6" />
+	<voisin from="virage:1:m:7" to="virage:1:g:4" />
+	<voisin from="virage:1:m:7" to="case:2:g:0" />
+	<voisin from="virage:1:m:7" to="case:2:m:0" />
+	<voisin from="virage:1:m:7" to="virage:1:d:9" />
+	<voisin from="virage:1:m:7" to="virage:1:d:8" />
+
+	<voisin from="virage:1:d:0" to="case:1:d:17" />
+	<voisin from="virage:1:d:0" to="case:1:m:17" />
+	<voisin from="virage:1:d:0" to="virage:1:m:0" />
+	<voisin from="virage:1:d:0" to="virage:1:d:1" />
+	<voisin from="virage:1:d:1" to="virage:1:d:0" />
+	<voisin from="virage:1:d:1" to="virage:1:m:0" />
+	<voisin from="virage:1:d:1" to="virage:1:m:1" />
+	<voisin from="virage:1:d:1" to="virage:1:d:2" />
+	<voisin from="virage:1:d:2" to="virage:1:d:1" />
+	<voisin from="virage:1:d:2" to="virage:1:m:1" />
+	<voisin from="virage:1:d:2" to="virage:1:m:2" />
+	<voisin from="virage:1:d:2" to="virage:1:d:3" />
+	<voisin from="virage:1:d:3" to="virage:1:d:2" />
+	<voisin from="virage:1:d:3" to="virage:1:m:2" />
+	<voisin from="virage:1:d:3" to="virage:1:m:3" />
+	<voisin from="virage:1:d:3" to="virage:1:d:4" />
+	<voisin from="virage:1:d:4" to="virage:1:d:3" />
+	<voisin from="virage:1:d:4" to="virage:1:m:3" />
+	<voisin from="virage:1:d:4" to="virage:1:d:5" />
+	<voisin from="virage:1:d:5" to="virage:1:d:4" />
+	<voisin from="virage:1:d:5" to="virage:1:m:3" />
+	<voisin from="virage:1:d:5" to="virage:1:m:4" />
+	<voisin from="virage:1:d:5" to="virage:1:d:6" />
+	<voisin from="virage:1:d:6" to="virage:1:d:5" />
+	<voisin from="virage:1:d:6" to="virage:1:m:4" />
+	<voisin from="virage:1:d:6" to="virage:1:m:5" />
+	<voisin from="virage:1:d:6" to="virage:1:d:7" />
+	<voisin from="virage:1:d:7" to="virage:1:d:6" />
+	<voisin from="virage:1:d:7" to="virage:1:m:5" />
+	<voisin from="virage:1:d:7" to="virage:1:m:6" />
+	<voisin from="virage:1:d:7" to="virage:1:d:8" />
+	<voisin from="virage:1:d:8" to="virage:1:d:7" />
+	<voisin from="virage:1:d:8" to="virage:1:m:6" />
+	<voisin from="virage:1:d:8" to="virage:1:m:7" />
+	<voisin from="virage:1:d:8" to="virage:1:d:9" />
+	<voisin from="virage:1:d:9" to="virage:1:d:8" />
+	<voisin from="virage:1:d:9" to="virage:1:m:7" />
+	<voisin from="virage:1:d:9" to="case:2:m:0" />
+	<voisin from="virage:1:d:9" to="case:2:d:0" />
+
+	<voisin from="virage:2:g:0" to="case:2:g:1" />
+	<voisin from="virage:2:g:0" to="case:2:m:1" />
+	<voisin from="virage:2:g:0" to="virage:2:m:0" />
+	<voisin from="virage:2:g:0" to="virage:2:g:1" />
+	<voisin from="virage:2:g:1" to="virage:2:g:0" />
+	<voisin from="virage:2:g:1" to="virage:2:m:0" />
+	<voisin from="virage:2:g:1" to="virage:2:m:1" />
+	<voisin from="virage:2:g:1" to="virage:2:g:2" />
+	<voisin from="virage:2:g:2" to="virage:2:g:1" />
+	<voisin from="virage:2:g:2" to="virage:2:m:1" />
+	<voisin from="virage:2:g:2" to="virage:2:m:2" />
+	<voisin from="virage:2:g:2" to="virage:2:g:3" />
+	<voisin from="virage:2:g:3" to="virage:2:g:2" />
+	<voisin from="virage:2:g:3" to="virage:2:m:2" />
+	<voisin from="virage:2:g:3" to="virage:2:g:4" />
+	<voisin from="virage:2:g:4" to="virage:2:g:3" />
+	<voisin from="virage:2:g:4" to="virage:2:m:2" />
+	<voisin from="virage:2:g:4" to="virage:2:m:3" />
+	<voisin from="virage:2:g:4" to="virage:2:g:5" />
+	<voisin from="virage:2:g:5" to="virage:2:g:4" />
+	<voisin from="virage:2:g:5" to="virage:2:m:3" />
+	<voisin from="virage:2:g:5" to="case:3:m:0" />
+	<voisin from="virage:2:g:5" to="case:3:g:0" />
+
+	<voisin from="virage:2:m:0" to="case:2:m:1" />
+	<voisin from="virage:2:m:0" to="virage:2:g:0" />
+	<voisin from="virage:2:m:0" to="virage:2:g:1" />
+	<voisin from="virage:2:m:0" to="virage:2:m:1" />
+	<voisin from="virage:2:m:0" to="virage:2:d:0" />
+	<voisin from="virage:2:m:0" to="case:2:d:1" />
+	<voisin from="virage:2:m:1" to="virage:2:m:0" />
+	<voisin from="virage:2:m:1" to="virage:2:g:1" />
+	<voisin from="virage:2:m:1" to="virage:2:g:2" />
+	<voisin from="virage:2:m:1" to="virage:2:m:2" />
+	<voisin from="virage:2:m:1" to="virage:2:d:0" />
+	<voisin from="virage:2:m:2" to="virage:2:m:1" />
+	<voisin from="virage:2:m:2" to="virage:2:g:2" />
+	<voisin from="virage:2:m:2" to="virage:2:g:3" />
+	<voisin from="virage:2:m:2" to="virage:2:g:4" />
+	<voisin from="virage:2:m:2" to="virage:2:m:3" />
+	<voisin from="virage:2:m:2" to="virage:2:d:1" />
+	<voisin from="virage:2:m:3" to="virage:2:m:2" />
+	<voisin from="virage:2:m:3" to="virage:2:g:4" />
+	<voisin from="virage:2:m:3" to="virage:2:g:5" />
+	<voisin from="virage:2:m:3" to="case:3:m:0" />
+	<voisin from="virage:2:m:3" to="case:3:d:0" />
+	<voisin from="virage:2:m:3" to="virage:2:d:1" />
+
+	<voisin from="virage:2:d:0" to="case:2:d:1" />
+	<voisin from="virage:2:d:0" to="virage:2:m:0" />
+	<voisin from="virage:2:d:0" to="virage:2:m:1" />
+	<voisin from="virage:2:d:0" to="virage:2:d:1" />
+	<voisin from="virage:2:d:1" to="virage:2:d:0" />
+	<voisin from="virage:2:d:1" to="virage:2:m:1" />
+	<voisin from="virage:2:d:1" to="virage:2:m:2" />
+	<voisin from="virage:2:d:1" to="virage:2:m:3" />
+	<voisin from="virage:2:d:1" to="case:3:d:0" />
+
+	<voisin from="virage:3:g:0" to="case:3:g:6" />
+	<voisin from="virage:3:g:0" to="case:3:m:7" />
+	<voisin from="virage:3:g:0" to="virage:3:m:0" />
+	<voisin from="virage:3:g:0" to="virage:3:g:1" />
+	<voisin from="virage:3:g:1" to="virage:3:g:0" />
+	<voisin from="virage:3:g:1" to="virage:3:m:0" />
+	<voisin from="virage:3:g:1" to="virage:3:m:1" />
+	<voisin from="virage:3:g:1" to="virage:3:g:2" />
+	<voisin from="virage:3:g:2" to="virage:3:g:1" />
+	<voisin from="virage:3:g:2" to="virage:3:m:1" />
+	<voisin from="virage:3:g:2" to="virage:3:m:2" />
+	<voisin from="virage:3:g:2" to="virage:3:g:3" />
+	<voisin from="virage:3:g:3" to="virage:3:g:2" />
+	<voisin from="virage:3:g:3" to="virage:3:m:2" />
+	<voisin from="virage:3:g:3" to="virage:3:g:4" />
+	<voisin from="virage:3:g:4" to="virage:3:m:2" />
+	<voisin from="virage:3:g:4" to="virage:3:g:3" />
+	<voisin from="virage:3:g:4" to="virage:3:m:3" />
+	<voisin from="virage:3:g:4" to="virage:3:g:5" />
+	<voisin from="virage:3:g:5" to="virage:3:g:4" />
+	<voisin from="virage:3:g:5" to="virage:3:m:3" />
+	<voisin from="virage:3:g:5" to="case:4:m:0" />
+	<voisin from="virage:3:g:5" to="case:4:g:0" />
+
+	<voisin from="virage:3:m:0" to="case:3:m:7" />
+	<voisin from="virage:3:m:0" to="virage:3:g:0" />
+	<voisin from="virage:3:m:0" to="virage:3:g:1" />
+	<voisin from="virage:3:m:0" to="virage:3:m:1" />
+	<voisin from="virage:3:m:0" to="virage:3:d:0" />
+	<voisin from="virage:3:m:0" to="case:3:d:8" />
+	<voisin from="virage:3:m:1" to="virage:3:m:0" />
+	<voisin from="virage:3:m:1" to="virage:3:g:1" />
+	<voisin from="virage:3:m:1" to="virage:3:g:2" />
+	<voisin from="virage:3:m:1" to="virage:3:m:2" />
+	<voisin from="virage:3:m:1" to="virage:3:d:0" />
+	<voisin from="virage:3:m:2" to="virage:3:m:1" />
+	<voisin from="virage:3:m:2" to="virage:3:g:2" />
+	<voisin from="virage:3:m:2" to="virage:3:g:3" />
+	<voisin from="virage:3:m:2" to="virage:3:g:4" />
+	<voisin from="virage:3:m:2" to="virage:3:m:3" />
+	<voisin from="virage:3:m:2" to="virage:3:d:1" />
+	<voisin from="virage:3:m:2" to="virage:3:d:0" />
+	<voisin from="virage:3:m:3" to="virage:3:m:2" />
+	<voisin from="virage:3:m:3" to="virage:3:g:4" />
+	<voisin from="virage:3:m:3" to="virage:3:g:5" />
+	<voisin from="virage:3:m:3" to="case:4:m:0" />
+	<voisin from="virage:3:m:3" to="case:4:d:0" />
+	<voisin from="virage:3:m:3" to="virage:3:d:1" />
+
+	<voisin from="virage:3:d:0" to="case:3:d:8" />
+	<voisin from="virage:3:d:0" to="virage:3:m:0" />
+	<voisin from="virage:3:d:0" to="virage:3:m:1" />
+	<voisin from="virage:3:d:0" to="virage:3:m:2" />
+	<voisin from="virage:3:d:0" to="virage:3:d:1" />
+	<voisin from="virage:3:d:1" to="virage:3:d:0" />
+	<voisin from="virage:3:d:1" to="virage:3:m:2" />
+	<voisin from="virage:3:d:1" to="virage:3:m:3" />
+	<voisin from="virage:3:d:1" to="case:4:d:0" />
+
+	<voisin from="virage:4:d:0" to="case:4:d:2" />
+	<voisin from="virage:4:d:0" to="case:4:m:2" />
+	<voisin from="virage:4:d:0" to="virage:4:m:0" />
+	<voisin from="virage:4:d:0" to="virage:4:d:1" />
+	<voisin from="virage:4:d:1" to="virage:4:d:0" />
+	<voisin from="virage:4:d:1" to="virage:4:m:0" />
+	<voisin from="virage:4:d:1" to="virage:4:m:1" />
+	<voisin from="virage:4:d:1" to="virage:4:d:2" />
+	<voisin from="virage:4:d:2" to="virage:4:d:1" />
+	<voisin from="virage:4:d:2" to="virage:4:m:1" />
+	<voisin from="virage:4:d:2" to="virage:4:d:3" />
+	<voisin from="virage:4:d:3" to="virage:4:d:2" />
+	<voisin from="virage:4:d:3" to="virage:4:m:1" />
+	<voisin from="virage:4:d:3" to="virage:4:m:2" />
+	<voisin from="virage:4:d:3" to="virage:4:d:4" />
+	<voisin from="virage:4:d:4" to="virage:4:d:3" />
+	<voisin from="virage:4:d:4" to="virage:4:m:2" />
+	<voisin from="virage:4:d:4" to="virage:4:d:5" />
+	<voisin from="virage:4:d:5" to="virage:4:d:4" />
+	<voisin from="virage:4:d:5" to="virage:4:m:2" />
+	<voisin from="virage:4:d:5" to="virage:4:m:3" />
+	<voisin from="virage:4:d:5" to="virage:4:d:6" />
+	<voisin from="virage:4:d:6" to="virage:4:d:5" />
+	<voisin from="virage:4:d:6" to="virage:4:m:3" />
+	<voisin from="virage:4:d:6" to="virage:4:m:4" />
+	<voisin from="virage:4:d:6" to="virage:4:d:7" />
+	<voisin from="virage:4:d:7" to="virage:4:d:6" />
+	<voisin from="virage:4:d:7" to="virage:4:m:4" />
+	<voisin from="virage:4:d:7" to="virage:4:m:5" />
+	<voisin from="virage:4:d:7" to="virage:4:d:8" />
+	<voisin from="virage:4:d:8" to="virage:4:d:7" />
+	<voisin from="virage:4:d:8" to="virage:4:m:5" />
+	<voisin from="virage:4:d:8" to="virage:4:m:6" />
+	<voisin from="virage:4:d:8" to="virage:4:m:7" />
+	<voisin from="virage:4:d:8" to="virage:4:d:9" />
+	<voisin from="virage:4:d:9" to="virage:4:d:8" />
+	<voisin from="virage:4:d:9" to="virage:4:m:7" />
+	<voisin from="virage:4:d:9" to="virage:4:m:8" />
+	<voisin from="virage:4:d:9" to="virage:4:d:10" />
+	<voisin from="virage:4:d:10" to="virage:4:d:9" />
+	<voisin from="virage:4:d:10" to="virage:4:m:8" />
+	<voisin from="virage:4:d:10" to="virage:4:m:9" />
+	<voisin from="virage:4:d:10" to="virage:4:d:11" />
+	<voisin from="virage:4:d:11" to="virage:4:d:10" />
+	<voisin from="virage:4:d:11" to="virage:4:m:9" />
+	<voisin from="virage:4:d:11" to="virage:4:m:10" />
+	<voisin from="virage:4:d:11" to="virage:4:m:11" />
+	<voisin from="virage:4:d:11" to="case:5:d:0" />
+
+	<voisin from="virage:4:m:0" to="case:4:m:2" />
+	<voisin from="virage:4:m:0" to="case:4:g:2" />
+	<voisin from="virage:4:m:0" to="virage:4:g:0" />
+	<voisin from="virage:4:m:0" to="virage:4:m:1" />
+	<voisin from="virage:4:m:0" to="virage:4:d:1" />
+	<voisin from="virage:4:m:0" to="virage:4:d:0" />
+	<voisin from="virage:4:m:1" to="virage:4:m:0" />
+	<voisin from="virage:4:m:1" to="virage:4:g:0" />
+	<voisin from="virage:4:m:1" to="virage:4:m:2" />
+	<voisin from="virage:4:m:1" to="virage:4:d:3" />
+	<voisin from="virage:4:m:1" to="virage:4:d:2" />
+	<voisin from="virage:4:m:1" to="virage:4:d:1" />
+	<voisin from="virage:4:m:2" to="virage:4:m:1" />
+	<voisin from="virage:4:m:2" to="virage:4:g:0" />
+	<voisin from="virage:4:m:2" to="virage:4:m:3" />
+	<voisin from="virage:4:m:2" to="virage:4:d:5" />
+	<voisin from="virage:4:m:2" to="virage:4:d:4" />
+	<voisin from="virage:4:m:2" to="virage:4:d:3" />
+	<voisin from="virage:4:m:3" to="virage:4:m:2" />
+	<voisin from="virage:4:m:3" to="virage:4:g:0" />
+	<voisin from="virage:4:m:3" to="virage:4:g:1" />
+	<voisin from="virage:4:m:3" to="virage:4:m:4" />
+	<voisin from="virage:4:m:3" to="virage:4:d:6" />
+	<voisin from="virage:4:m:3" to="virage:4:d:5" />
+	<voisin from="virage:4:m:4" to="virage:4:m:3" />
+	<voisin from="virage:4:m:4" to="virage:4:g:1" />
+	<voisin from="virage:4:m:4" to="virage:4:g:2" />
+	<voisin from="virage:4:m:4" to="virage:4:m:5" />
+	<voisin from="virage:4:m:4" to="virage:4:d:7" />
+	<voisin from="virage:4:m:4" to="virage:4:d:6" />
+	<voisin from="virage:4:m:5" to="virage:4:m:4" />
+	<voisin from="virage:4:m:5" to="virage:4:g:2" />
+	<voisin from="virage:4:m:5" to="virage:4:g:3" />
+	<voisin from="virage:4:m:5" to="virage:4:m:6" />
+	<voisin from="virage:4:m:5" to="virage:4:d:8" />
+	<voisin from="virage:4:m:5" to="virage:4:d:7" />
+	<voisin from="virage:4:m:6" to="virage:4:m:5" />
+	<voisin from="virage:4:m:6" to="virage:4:g:3" />
+	<voisin from="virage:4:m:6" to="virage:4:g:4" />
+	<voisin from="virage:4:m:6" to="virage:4:g:5" />
+	<voisin from="virage:4:m:6" to="virage:4:m:7" />
+	<voisin from="virage:4:m:6" to="virage:4:d:8" />
+	<voisin from="virage:4:m:7" to="virage:4:m:6" />
+	<voisin from="virage:4:m:7" to="virage:4:g:5" />
+	<voisin from="virage:4:m:7" to="virage:4:g:6" />
+	<voisin from="virage:4:m:7" to="virage:4:m:8" />
+	<voisin from="virage:4:m:7" to="virage:4:d:9" />
+	<voisin from="virage:4:m:7" to="virage:4:d:8" />
+	<voisin from="virage:4:m:8" to="virage:4:m:7" />
+	<voisin from="virage:4:m:8" to="virage:4:g:6" />
+	<voisin from="virage:4:m:8" to="virage:4:g:7" />
+	<voisin from="virage:4:m:8" to="virage:4:m:9" />
+	<voisin from="virage:4:m:8" to="virage:4:d:10" />
+	<voisin from="virage:4:m:8" to="virage:4:d:9" />
+	<voisin from="virage:4:m:9" to="virage:4:m:8" />
+	<voisin from="virage:4:m:9" to="virage:4:g:7" />
+	<voisin from="virage:4:m:9" to="virage:4:g:8" />
+	<voisin from="virage:4:m:9" to="virage:4:m:10" />
+	<voisin from="virage:4:m:9" to="virage:4:d:11" />
+	<voisin from="virage:4:m:9" to="virage:4:d:10" />
+	<voisin from="virage:4:m:10" to="virage:4:m:9" />
+	<voisin from="virage:4:m:10" to="virage:4:g:8" />
+	<voisin from="virage:4:m:10" to="virage:4:g:9" />
+	<voisin from="virage:4:m:10" to="virage:4:g:10" />
+	<voisin from="virage:4:m:10" to="virage:4:m:11" />
+	<voisin from="virage:4:m:10" to="virage:4:d:11" />
+	<voisin from="virage:4:m:11" to="virage:4:m:10" />
+	<voisin from="virage:4:m:11" to="virage:4:g:10" />
+	<voisin from="virage:4:m:11" to="virage:4:g:11" />
+	<voisin from="virage:4:m:11" to="case:5:m:0" />
+	<voisin from="virage:4:m:11" to="case:5:d:0" />
+	<voisin from="virage:4:m:11" to="virage:4:d:11" />
+
+	<voisin from="virage:4:g:0" to="case:4:g:2" />
+	<voisin from="virage:4:g:0" to="virage:4:m:0" />
+	<voisin from="virage:4:g:0" to="virage:4:m:1" />
+	<voisin from="virage:4:g:0" to="virage:4:m:2" />
+	<voisin from="virage:4:g:0" to="virage:4:m:3" />
+	<voisin from="virage:4:g:0" to="virage:4:g:1" />
+	<voisin from="virage:4:g:1" to="virage:4:g:0" />
+	<voisin from="virage:4:g:1" to="virage:4:m:3" />
+	<voisin from="virage:4:g:1" to="virage:4:m:4" />
+	<voisin from="virage:4:g:1" to="virage:4:g:2" />
+	<voisin from="virage:4:g:2" to="virage:4:g:1" />
+	<voisin from="virage:4:g:2" to="virage:4:m:4" />
+	<voisin from="virage:4:g:2" to="virage:4:m:5" />
+	<voisin from="virage:4:g:2" to="virage:4:g:3" />
+	<voisin from="virage:4:g:3" to="virage:4:g:2" />
+	<voisin from="virage:4:g:3" to="virage:4:m:5" />
+	<voisin from="virage:4:g:3" to="virage:4:m:6" />
+	<voisin from="virage:4:g:3" to="virage:4:g:4" />
+	<voisin from="virage:4:g:4" to="virage:4:g:3" />
+	<voisin from="virage:4:g:4" to="virage:4:m:6" />
+	<voisin from="virage:4:g:4" to="virage:4:g:5" />
+	<voisin from="virage:4:g:5" to="virage:4:g:4" />
+	<voisin from="virage:4:g:5" to="virage:4:m:6" />
+	<voisin from="virage:4:g:5" to="virage:4:m:7" />
+	<voisin from="virage:4:g:5" to="virage:4:g:6" />
+	<voisin from="virage:4:g:6" to="virage:4:g:5" />
+	<voisin from="virage:4:g:6" to="virage:4:m:7" />
+	<voisin from="virage:4:g:6" to="virage:4:m:8" />
+	<voisin from="virage:4:g:6" to="virage:4:g:7" />
+	<voisin from="virage:4:g:7" to="virage:4:g:6" />
+	<voisin from="virage:4:g:7" to="virage:4:m:8" />
+	<voisin from="virage:4:g:7" to="virage:4:m:9" />
+	<voisin from="virage:4:g:7" to="virage:4:g:8" />
+	<voisin from="virage:4:g:8" to="virage:4:g:7" />
+	<voisin from="virage:4:g:8" to="virage:4:m:9" />
+	<voisin from="virage:4:g:8" to="virage:4:m:10" />
+	<voisin from="virage:4:g:8" to="virage:4:g:9" />
+	<voisin from="virage:4:g:9" to="virage:4:g:8" />
+	<voisin from="virage:4:g:9" to="virage:4:m:10" />
+	<voisin from="virage:4:g:9" to="virage:4:g:10" />
+	<voisin from="virage:4:g:10" to="virage:4:g:9" />
+	<voisin from="virage:4:g:10" to="virage:4:m:10" />
+	<voisin from="virage:4:g:10" to="virage:4:m:11" />
+	<voisin from="virage:4:g:10" to="virage:4:g:11" />
+	<voisin from="virage:4:g:11" to="virage:4:m:11" />
+	<voisin from="virage:4:g:11" to="case:5:m:0" />
+	<voisin from="virage:4:g:11" to="virage:4:g:10" />
+	<voisin from="virage:4:g:11" to="case:5:g:0" />
+
+	<voisin from="virage:5:d:0" to="case:5:d:27" />
+	<voisin from="virage:5:d:0" to="case:5:m:27" />
+	<voisin from="virage:5:d:0" to="virage:5:m:0" />
+	<voisin from="virage:5:d:0" to="virage:5:d:1" />
+	<voisin from="virage:5:d:1" to="virage:5:d:0" />
+	<voisin from="virage:5:d:1" to="virage:5:m:0" />
+	<voisin from="virage:5:d:1" to="virage:5:m:1" />
+	<voisin from="virage:5:d:1" to="virage:5:d:2" />
+	<voisin from="virage:5:d:2" to="virage:5:d:1" />
+	<voisin from="virage:5:d:2" to="virage:5:m:1" />
+	<voisin from="virage:5:d:2" to="virage:5:d:3" />
+	<voisin from="virage:5:d:3" to="virage:5:d:2" />
+	<voisin from="virage:5:d:3" to="virage:5:m:1" />
+	<voisin from="virage:5:d:3" to="virage:5:m:2" />
+	<voisin from="virage:5:d:3" to="virage:5:m:3" />
+	<voisin from="virage:5:d:3" to="virage:5:d:4" />
+	<voisin from="virage:5:d:4" to="virage:5:d:3" />
+	<voisin from="virage:5:d:4" to="virage:5:m:3" />
+	<voisin from="virage:5:d:4" to="virage:5:m:4" />
+	<voisin from="virage:5:d:4" to="virage:5:d:5" />
+	<voisin from="virage:5:d:5" to="virage:5:d:4" />
+	<voisin from="virage:5:d:5" to="virage:5:m:4" />
+	<voisin from="virage:5:d:5" to="virage:5:m:5" />
+	<voisin from="virage:5:d:5" to="virage:5:d:6" />
+	<voisin from="virage:5:d:6" to="virage:5:d:5" />
+	<voisin from="virage:5:d:6" to="virage:5:m:5" />
+	<voisin from="virage:5:d:6" to="case:6:m:0" />
+	<voisin from="virage:5:d:6" to="case:6:d:0" />
+
+	<voisin from="virage:5:d:0" to="case:5:d:27" />
+	<voisin from="virage:5:d:0" to="case:5:m:27" />
+	<voisin from="virage:5:d:0" to="virage:5:m:0" />
+	<voisin from="virage:5:d:0" to="virage:5:d:1" />
+	<voisin from="virage:5:d:1" to="virage:5:d:0" />
+	<voisin from="virage:5:d:1" to="virage:5:m:0" />
+	<voisin from="virage:5:d:1" to="virage:5:m:1" />
+	<voisin from="virage:5:d:1" to="virage:5:d:2" />
+	<voisin from="virage:5:d:2" to="virage:5:d:1" />
+	<voisin from="virage:5:d:2" to="virage:5:m:1" />
+	<voisin from="virage:5:d:2" to="virage:5:d:3" />
+	<voisin from="virage:5:d:3" to="virage:5:d:2" />
+	<voisin from="virage:5:d:3" to="virage:5:m:1" />
+	<voisin from="virage:5:d:3" to="virage:5:m:2" />
+	<voisin from="virage:5:d:3" to="virage:5:m:3" />
+	<voisin from="virage:5:d:3" to="virage:5:d:4" />
+	<voisin from="virage:5:d:4" to="virage:5:d:3" />
+	<voisin from="virage:5:d:4" to="virage:5:m:3" />
+	<voisin from="virage:5:d:4" to="virage:5:m:4" />
+	<voisin from="virage:5:d:4" to="virage:5:d:5" />
+	<voisin from="virage:5:d:5" to="virage:5:d:4" />
+	<voisin from="virage:5:d:5" to="virage:5:m:4" />
+	<voisin from="virage:5:d:5" to="virage:5:m:5" />
+	<voisin from="virage:5:d:5" to="virage:5:d:6" />
+	<voisin from="virage:5:d:6" to="virage:5:d:5" />
+	<voisin from="virage:5:d:6" to="virage:5:m:5" />
+	<voisin from="virage:5:d:6" to="case:6:m:0" />
+	<voisin from="virage:5:d:6" to="case:6:d:0" />
+
+	<voisin from="virage:5:g:0" to="case:5:g:27" />
+	<voisin from="virage:5:g:0" to="virage:5:m:0" />
+	<voisin from="virage:5:g:0" to="virage:5:m:1" />
+	<voisin from="virage:5:g:0" to="virage:5:m:2" />
+	<voisin from="virage:5:g:0" to="virage:5:g:1" />
+	<voisin from="virage:5:g:1" to="virage:5:g:0" />
+	<voisin from="virage:5:g:1" to="virage:5:m:2" />
+	<voisin from="virage:5:g:1" to="virage:5:m:3" />
+	<voisin from="virage:5:g:1" to="virage:5:g:2" />
+	<voisin from="virage:5:g:2" to="virage:5:g:1" />
+	<voisin from="virage:5:g:2" to="virage:5:m:3" />
+	<voisin from="virage:5:g:2" to="virage:5:g:3" />
+	<voisin from="virage:5:g:3" to="virage:5:g:2" />
+	<voisin from="virage:5:g:3" to="virage:5:m:3" />
+	<voisin from="virage:5:g:3" to="virage:5:m:4" />
+	<voisin from="virage:5:g:3" to="virage:5:g:4" />
+	<voisin from="virage:5:g:4" to="virage:5:g:3" />
+	<voisin from="virage:5:g:4" to="virage:5:m:4" />
+	<voisin from="virage:5:g:4" to="virage:5:m:5" />
+	<voisin from="virage:5:g:4" to="case:6:g:0" />
+
+	<voisin from="virage:6:d:0" to="case:6:d:6" />
+	<voisin from="virage:6:d:0" to="case:6:m:7" />
+	<voisin from="virage:6:d:0" to="virage:6:m:0" />
+	<voisin from="virage:6:d:0" to="virage:6:d:1" />
+	<voisin from="virage:6:d:1" to="virage:6:d:0" />
+	<voisin from="virage:6:d:1" to="virage:6:m:0" />
+	<voisin from="virage:6:d:1" to="virage:6:m:1" />
+	<voisin from="virage:6:d:1" to="virage:6:d:2" />
+	<voisin from="virage:6:d:2" to="virage:6:d:1" />
+	<voisin from="virage:6:d:2" to="virage:6:m:1" />
+	<voisin from="virage:6:d:2" to="virage:6:m:2" />
+	<voisin from="virage:6:d:2" to="virage:6:d:3" />
+	<voisin from="virage:6:d:3" to="virage:6:d:2" />
+	<voisin from="virage:6:d:3" to="virage:6:m:2" />
+	<voisin from="virage:6:d:3" to="virage:6:d:4" />
+	<voisin from="virage:6:d:4" to="virage:6:d:3" />
+	<voisin from="virage:6:d:4" to="virage:6:m:2" />
+	<voisin from="virage:6:d:4" to="virage:6:m:3" />
+	<voisin from="virage:6:d:4" to="virage:6:d:5" />
+	<voisin from="virage:6:d:5" to="virage:6:d:4" />
+	<voisin from="virage:6:d:5" to="virage:6:m:3" />
+	<voisin from="virage:6:d:5" to="virage:6:m:4" />
+	<voisin from="virage:6:d:5" to="virage:6:d:6" />
+	<voisin from="virage:6:d:6" to="virage:6:d:5" />
+	<voisin from="virage:6:d:6" to="virage:6:m:4" />
+	<voisin from="virage:6:d:6" to="case:7:m:0" />
+	<voisin from="virage:6:d:6" to="case:7:d:0" />
+
+	<voisin from="virage:6:m:0" to="case:6:m:7" />
+	<voisin from="virage:6:m:0" to="virage:6:d:0" />
+	<voisin from="virage:6:m:0" to="virage:6:d:1" />
+	<voisin from="virage:6:m:0" to="virage:6:m:1" />
+	<voisin from="virage:6:m:0" to="virage:6:g:0" />
+	<voisin from="virage:6:m:0" to="case:6:g:8" />
+	<voisin from="virage:6:m:1" to="virage:6:m:0" />
+	<voisin from="virage:6:m:1" to="virage:6:d:1" />
+	<voisin from="virage:6:m:1" to="virage:6:d:2" />
+	<voisin from="virage:6:m:1" to="virage:6:m:2" />
+	<voisin from="virage:6:m:1" to="virage:6:g:1" />
+	<voisin from="virage:6:m:1" to="virage:6:g:0" />
+	<voisin from="virage:6:m:2" to="virage:6:m:1" />
+	<voisin from="virage:6:m:2" to="virage:6:d:2" />
+	<voisin from="virage:6:m:2" to="virage:6:d:3" />
+	<voisin from="virage:6:m:2" to="virage:6:d:4" />
+	<voisin from="virage:6:m:2" to="virage:6:m:3" />
+	<voisin from="virage:6:m:2" to="virage:6:g:1" />
+	<voisin from="virage:6:m:2" to="virage:6:m:1" />
+	<voisin from="virage:6:m:3" to="virage:6:m:2" />
+	<voisin from="virage:6:m:3" to="virage:6:d:4" />
+	<voisin from="virage:6:m:3" to="virage:6:d:5" />
+	<voisin from="virage:6:m:3" to="virage:6:m:4" />
+	<voisin from="virage:6:m:3" to="virage:6:g:2" />
+	<voisin from="virage:6:m:3" to="virage:6:g:1" />
+	<voisin from="virage:6:m:4" to="virage:6:m:3" />
+	<voisin from="virage:6:m:4" to="virage:6:d:5" />
+	<voisin from="virage:6:m:4" to="virage:6:d:6" />
+	<voisin from="virage:6:m:4" to="case:7:m:0" />
+	<voisin from="virage:6:m:4" to="case:7:g:0" />
+	<voisin from="virage:6:m:4" to="virage:6:g:2" />
+
+	<voisin from="virage:6:g:0" to="case:6:g:8" />
+	<voisin from="virage:6:g:0" to="virage:6:m:0" />
+	<voisin from="virage:6:g:0" to="virage:6:m:1" />
+	<voisin from="virage:6:g:0" to="virage:6:g:1" />
+	<voisin from="virage:6:g:1" to="virage:6:g:0" />
+	<voisin from="virage:6:g:1" to="virage:6:m:1" />
+	<voisin from="virage:6:g:1" to="virage:6:m:2" />
+	<voisin from="virage:6:g:1" to="virage:6:m:3" />
+	<voisin from="virage:6:g:1" to="virage:6:g:2" />
+	<voisin from="virage:6:g:2" to="virage:6:g:1" />
+	<voisin from="virage:6:g:2" to="virage:6:m:3" />
+	<voisin from="virage:6:g:2" to="virage:6:m:4" />
+	<voisin from="virage:6:g:2" to="case:7:g:0" />
+
+	<voisin from="virage:7:d:0" to="case:7:d:0" />
+	<voisin from="virage:7:d:0" to="case:7:m:1" />
+	<voisin from="virage:7:d:0" to="virage:7:m:0" />
+	<voisin from="virage:7:d:0" to="virage:7:d:1" />
+	<voisin from="virage:7:d:1" to="virage:7:d:0" />
+	<voisin from="virage:7:d:1" to="virage:7:m:0" />
+	<voisin from="virage:7:d:1" to="virage:7:m:1" />
+	<voisin from="virage:7:d:1" to="virage:7:d:2" />
+	<voisin from="virage:7:d:2" to="virage:7:d:1" />
+	<voisin from="virage:7:d:2" to="virage:7:m:1" />
+	<voisin from="virage:7:d:2" to="virage:7:d:3" />
+	<voisin from="virage:7:d:3" to="virage:7:d:2" />
+	<voisin from="virage:7:d:3" to="virage:7:m:1" />
+	<voisin from="virage:7:d:3" to="virage:7:m:2" />
+	<voisin from="virage:7:d:3" to="virage:7:m:3" />
+	<voisin from="virage:7:d:3" to="virage:7:d:4" />
+	<voisin from="virage:7:d:4" to="virage:7:d:3" />
+	<voisin from="virage:7:d:4" to="virage:7:m:3" />
+	<voisin from="virage:7:d:4" to="virage:7:m:4" />
+	<voisin from="virage:7:d:4" to="virage:7:d:5" />
+	<voisin from="virage:7:d:5" to="virage:7:d:4" />
+	<voisin from="virage:7:d:5" to="virage:7:m:4" />
+	<voisin from="virage:7:d:5" to="virage:7:m:5" />
+	<voisin from="virage:7:d:5" to="virage:7:d:6" />
+	<voisin from="virage:7:d:6" to="virage:7:d:5" />
+	<voisin from="virage:7:d:6" to="virage:7:m:5" />
+	<voisin from="virage:7:d:6" to="virage:7:m:6" />
+	<voisin from="virage:7:d:6" to="virage:7:m:7" />
+	<voisin from="virage:7:d:6" to="virage:7:d:7" />
+	<voisin from="virage:7:d:7" to="virage:7:d:6" />
+	<voisin from="virage:7:d:7" to="virage:7:m:7" />
+	<voisin from="virage:7:d:7" to="virage:7:d:8" />
+	<voisin from="virage:7:d:8" to="virage:7:d:7" />
+	<voisin from="virage:7:d:8" to="virage:7:m:7" />
+	<voisin from="virage:7:d:8" to="virage:7:m:8" />
+	<voisin from="virage:7:d:8" to="virage:7:d:9" />
+	<voisin from="virage:7:d:9" to="virage:7:d:8" />
+	<voisin from="virage:7:d:9" to="virage:7:m:8" />
+	<voisin from="virage:7:d:9" to="virage:7:m:9" />
+	<voisin from="virage:7:d:9" to="virage:7:d:10" />
+	<voisin from="virage:7:d:10" to="virage:7:d:9" />
+	<voisin from="virage:7:d:10" to="virage:7:m:9" />
+	<voisin from="virage:7:d:10" to="case:8:m:0" />
+	<voisin from="virage:7:d:10" to="case:8:d:0" />
+
+	<voisin from="virage:7:m:0" to="case:7:m:1" />
+	<voisin from="virage:7:m:0" to="virage:7:d:0" />
+	<voisin from="virage:7:m:0" to="virage:7:d:1" />
+	<voisin from="virage:7:m:0" to="virage:7:m:1" />
+	<voisin from="virage:7:m:0" to="virage:7:g:0" />
+	<voisin from="virage:7:m:0" to="case:7:g:2" />
+	<voisin from="virage:7:m:1" to="virage:7:m:0" />
+	<voisin from="virage:7:m:1" to="virage:7:d:1" />
+	<voisin from="virage:7:m:1" to="virage:7:d:2" />
+	<voisin from="virage:7:m:1" to="virage:7:d:3" />
+	<voisin from="virage:7:m:1" to="virage:7:m:2" />
+	<voisin from="virage:7:m:1" to="virage:7:g:0" />
+	<voisin from="virage:7:m:2" to="virage:7:g:0" />
+	<voisin from="virage:7:m:2" to="virage:7:m:1" />
+	<voisin from="virage:7:m:2" to="virage:7:d:3" />
+	<voisin from="virage:7:m:2" to="virage:7:m:3" />
+	<voisin from="virage:7:m:2" to="virage:7:g:2" />
+	<voisin from="virage:7:m:2" to="virage:7:g:1" />
+	<voisin from="virage:7:m:3" to="virage:7:m:2" />
+	<voisin from="virage:7:m:3" to="virage:7:d:3" />
+	<voisin from="virage:7:m:3" to="virage:7:d:4" />
+	<voisin from="virage:7:m:3" to="virage:7:m:4" />
+	<voisin from="virage:7:m:3" to="virage:7:g:3" />
+	<voisin from="virage:7:m:3" to="virage:7:g:2" />
+	<voisin from="virage:7:m:4" to="virage:7:m:3" />
+	<voisin from="virage:7:m:4" to="virage:7:d:4" />
+	<voisin from="virage:7:m:4" to="virage:7:d:5" />
+	<voisin from="virage:7:m:4" to="virage:7:m:5" />
+	<voisin from="virage:7:m:4" to="virage:7:g:4" />
+	<voisin from="virage:7:m:4" to="virage:7:g:3" />
+	<voisin from="virage:7:m:5" to="virage:7:m:4" />
+	<voisin from="virage:7:m:5" to="virage:7:d:5" />
+	<voisin from="virage:7:m:5" to="virage:7:d:6" />
+	<voisin from="virage:7:m:5" to="virage:7:g:6" />
+	<voisin from="virage:7:m:5" to="virage:7:g:5" />
+	<voisin from="virage:7:m:5" to="virage:7:g:4" />
+	<voisin from="virage:7:m:6" to="virage:7:m:5" />
+	<voisin from="virage:7:m:6" to="virage:7:d:6" />
+	<voisin from="virage:7:m:6" to="virage:7:m:7" />
+	<voisin from="virage:7:m:6" to="virage:7:g:7" />
+	<voisin from="virage:7:m:6" to="virage:7:g:6" />
+	<voisin from="virage:7:m:6" to="virage:7:g:5" />
+	<voisin from="virage:7:m:7" to="virage:7:m:6" />
+	<voisin from="virage:7:m:7" to="virage:7:d:6" />
+	<voisin from="virage:7:m:7" to="virage:7:d:7" />
+	<voisin from="virage:7:m:7" to="virage:7:d:8" />
+	<voisin from="virage:7:m:7" to="virage:7:m:8" />
+	<voisin from="virage:7:m:7" to="virage:7:g:7" />
+	<voisin from="virage:7:m:8" to="virage:7:m:7" />
+	<voisin from="virage:7:m:8" to="virage:7:d:8" />
+	<voisin from="virage:7:m:8" to="virage:7:d:9" />
+	<voisin from="virage:7:m:8" to="virage:7:m:9" />
+	<voisin from="virage:7:m:8" to="virage:7:g:8" />
+	<voisin from="virage:7:m:8" to="virage:7:g:7" />
+	<voisin from="virage:7:m:9" to="virage:7:m:8" />
+	<voisin from="virage:7:m:9" to="virage:7:d:9" />
+	<voisin from="virage:7:m:9" to="virage:7:d:10" />
+	<voisin from="virage:7:m:9" to="case:8:m:0" />
+	<voisin from="virage:7:m:9" to="case:8:g:0" />
+	<voisin from="virage:7:m:9" to="virage:7:g:8" />
+
+	<voisin from="virage:7:g:0" to="case:7:g:2" />
+	<voisin from="virage:7:g:0" to="virage:7:m:0" />
+	<voisin from="virage:7:g:0" to="virage:7:m:1" />
+	<voisin from="virage:7:g:0" to="virage:7:m:2" />
+	<voisin from="virage:7:g:0" to="virage:7:g:1" />
+	<voisin from="virage:7:g:1" to="virage:7:g:0" />
+	<voisin from="virage:7:g:1" to="virage:7:m:2" />
+	<voisin from="virage:7:g:1" to="virage:7:g:2" />
+	<voisin from="virage:7:g:2" to="virage:7:g:1" />
+	<voisin from="virage:7:g:2" to="virage:7:m:2" />
+	<voisin from="virage:7:g:2" to="virage:7:m:3" />
+	<voisin from="virage:7:g:2" to="virage:7:g:3" />
+	<voisin from="virage:7:g:3" to="virage:7:g:2" />
+	<voisin from="virage:7:g:3" to="virage:7:m:3" />
+	<voisin from="virage:7:g:3" to="virage:7:m:4" />
+	<voisin from="virage:7:g:3" to="virage:7:g:4" />
+	<voisin from="virage:7:g:4" to="virage:7:g:3" />
+	<voisin from="virage:7:g:4" to="virage:7:m:4" />
+	<voisin from="virage:7:g:4" to="virage:7:m:5" />
+	<voisin from="virage:7:g:4" to="virage:7:g:5" />
+	<voisin from="virage:7:g:5" to="virage:7:g:4" />
+	<voisin from="virage:7:g:5" to="virage:7:m:5" />
+	<voisin from="virage:7:g:5" to="virage:7:m:6" />
+	<voisin from="virage:7:g:5" to="virage:7:g:6" />
+	<voisin from="virage:7:g:6" to="virage:7:g:5" />
+	<voisin from="virage:7:g:6" to="virage:7:m:6" />
+	<voisin from="virage:7:g:6" to="virage:7:g:7" />
+	<voisin from="virage:7:g:7" to="virage:7:g:6" />
+	<voisin from="virage:7:g:7" to="virage:7:m:6" />
+	<voisin from="virage:7:g:7" to="virage:7:m:7" />
+	<voisin from="virage:7:g:7" to="virage:7:m:8" />
+	<voisin from="virage:7:g:7" to="virage:7:g:8" />
+	<voisin from="virage:7:g:8" to="virage:7:g:7" />
+	<voisin from="virage:7:g:8" to="virage:7:m:8" />
+	<voisin from="virage:7:g:8" to="virage:7:m:9" />
+	<voisin from="virage:7:g:8" to="case:8:g:0" />
+
+	<voisin from="virage:8:d:0" to="case:8:d:1" />
+	<voisin from="virage:8:d:0" to="case:8:m:2" />
+	<voisin from="virage:8:d:0" to="virage:8:m:0" />
+	<voisin from="virage:8:d:0" to="virage:8:d:1" />
+	<voisin from="virage:8:d:1" to="virage:8:d:0" />
+	<voisin from="virage:8:d:1" to="virage:8:m:0" />
+	<voisin from="virage:8:d:1" to="virage:8:m:1" />
+	<voisin from="virage:8:d:1" to="virage:8:d:2" />
+	<voisin from="virage:8:d:2" to="virage:8:d:1" />
+	<voisin from="virage:8:d:2" to="virage:8:m:1" />
+	<voisin from="virage:8:d:2" to="virage:8:d:3" />
+	<voisin from="virage:8:d:3" to="virage:8:d:2" />
+	<voisin from="virage:8:d:3" to="virage:8:m:1" />
+	<voisin from="virage:8:d:3" to="virage:8:m:2" />
+	<voisin from="virage:8:d:3" to="virage:8:d:4" />
+	<voisin from="virage:8:d:4" to="virage:8:d:3" />
+	<voisin from="virage:8:d:4" to="virage:8:m:2" />
+	<voisin from="virage:8:d:4" to="virage:8:m:3" />
+	<voisin from="virage:8:d:4" to="virage:8:m:4" />
+	<voisin from="virage:8:d:4" to="virage:8:d:5" />
+	<voisin from="virage:8:d:5" to="virage:8:d:4" />
+	<voisin from="virage:8:d:5" to="virage:8:m:4" />
+	<voisin from="virage:8:d:5" to="virage:8:m:5" />
+	<voisin from="virage:8:d:5" to="virage:8:m:6" />
+	<voisin from="virage:8:d:5" to="virage:8:d:6" />
+	<voisin from="virage:8:d:6" to="virage:8:d:5" />
+	<voisin from="virage:8:d:6" to="virage:8:m:6" />
+	<voisin from="virage:8:d:6" to="virage:8:m:7" />
+	<voisin from="virage:8:d:6" to="case:9:d:0" />
+
+	<voisin from="virage:8:m:0" to="case:8:m:2" />
+	<voisin from="virage:8:m:0" to="virage:8:d:0" />
+	<voisin from="virage:8:m:0" to="virage:8:d:1" />
+	<voisin from="virage:8:m:0" to="virage:8:m:1" />
+	<voisin from="virage:8:m:0" to="virage:8:g:0" />
+	<voisin from="virage:8:m:0" to="case:8:g:3" />
+	<voisin from="virage:8:m:1" to="virage:8:m:0" />
+	<voisin from="virage:8:m:1" to="virage:8:d:1" />
+	<voisin from="virage:8:m:1" to="virage:8:d:2" />
+	<voisin from="virage:8:m:1" to="virage:8:d:3" />
+	<voisin from="virage:8:m:1" to="virage:8:m:2" />
+	<voisin from="virage:8:m:1" to="virage:8:g:0" />
+	<voisin from="virage:8:m:2" to="virage:8:m:1" />
+	<voisin from="virage:8:m:2" to="virage:8:d:3" />
+	<voisin from="virage:8:m:2" to="virage:8:d:4" />
+	<voisin from="virage:8:m:2" to="virage:8:m:3" />
+	<voisin from="virage:8:m:2" to="virage:8:g:1" />
+	<voisin from="virage:8:m:2" to="virage:8:g:0" />
+	<voisin from="virage:8:m:3" to="virage:8:m:2" />
+	<voisin from="virage:8:m:3" to="virage:8:d:4" />
+	<voisin from="virage:8:m:3" to="virage:8:m:4" />
+	<voisin from="virage:8:m:3" to="virage:8:g:3" />
+	<voisin from="virage:8:m:3" to="virage:8:g:2" />
+	<voisin from="virage:8:m:3" to="virage:8:g:1" />
+	<voisin from="virage:8:m:4" to="virage:8:m:3" />
+	<voisin from="virage:8:m:4" to="virage:8:d:4" />
+	<voisin from="virage:8:m:4" to="virage:8:d:5" />
+	<voisin from="virage:8:m:4" to="virage:8:m:5" />
+	<voisin from="virage:8:m:4" to="virage:8:g:4" />
+	<voisin from="virage:8:m:4" to="virage:8:g:3" />
+	<voisin from="virage:8:m:5" to="virage:8:m:4" />
+	<voisin from="virage:8:m:5" to="virage:8:d:5" />
+	<voisin from="virage:8:m:5" to="virage:8:m:6" />
+	<voisin from="virage:8:m:5" to="virage:8:g:5" />
+	<voisin from="virage:8:m:5" to="virage:8:g:4" />
+	<voisin from="virage:8:m:6" to="virage:8:m:5" />
+	<voisin from="virage:8:m:6" to="virage:8:d:5" />
+	<voisin from="virage:8:m:6" to="virage:8:d:6" />
+	<voisin from="virage:8:m:6" to="virage:8:m:7" />
+	<voisin from="virage:8:m:6" to="virage:8:g:7" />
+	<voisin from="virage:8:m:6" to="virage:8:g:6" />
+	<voisin from="virage:8:m:7" to="virage:8:m:6" />
+	<voisin from="virage:8:m:7" to="virage:8:d:6" />
+	<voisin from="virage:8:m:7" to="case:9:d:0" />
+	<voisin from="virage:8:m:7" to="case:9:m:0" />
+	<voisin from="virage:8:m:7" to="virage:8:g:8" />
+	<voisin from="virage:8:m:7" to="virage:8:g:7" />
+
+	<voisin from="virage:8:g:0" to="case:8:g:3" />
+	<voisin from="virage:8:g:0" to="virage:8:m:0" />
+	<voisin from="virage:8:g:0" to="virage:8:m:1" />
+	<voisin from="virage:8:g:0" to="virage:8:m:2" />
+	<voisin from="virage:8:g:0" to="virage:8:g:1" />
+	<voisin from="virage:8:g:1" to="virage:8:g:0" />
+	<voisin from="virage:8:g:1" to="virage:8:m:2" />
+	<voisin from="virage:8:g:1" to="virage:8:m:3" />
+	<voisin from="virage:8:g:1" to="virage:8:g:2" />
+	<voisin from="virage:8:g:2" to="virage:8:g:1" />
+	<voisin from="virage:8:g:2" to="virage:8:m:3" />
+	<voisin from="virage:8:g:2" to="virage:8:g:3" />
+	<voisin from="virage:8:g:3" to="virage:8:g:2" />
+	<voisin from="virage:8:g:3" to="virage:8:m:3" />
+	<voisin from="virage:8:g:3" to="virage:8:m:4" />
+	<voisin from="virage:8:g:3" to="virage:8:g:4" />
+	<voisin from="virage:8:g:4" to="virage:8:g:3" />
+	<voisin from="virage:8:g:4" to="virage:8:m:4" />
+	<voisin from="virage:8:g:4" to="virage:8:m:5" />
+	<voisin from="virage:8:g:4" to="virage:8:g:5" />
+	<voisin from="virage:8:g:5" to="virage:8:g:4" />
+	<voisin from="virage:8:g:5" to="virage:8:m:5" />
+	<voisin from="virage:8:g:5" to="virage:8:g:6" />
+	<voisin from="virage:8:g:6" to="virage:8:g:5" />
+	<voisin from="virage:8:g:6" to="virage:8:m:5" />
+	<voisin from="virage:8:g:6" to="virage:8:m:6" />
+	<voisin from="virage:8:g:6" to="virage:8:g:7" />
+	<voisin from="virage:8:g:7" to="virage:8:g:6" />
+	<voisin from="virage:8:g:7" to="virage:8:m:6" />
+	<voisin from="virage:8:g:7" to="virage:8:m:7" />
+	<voisin from="virage:8:g:7" to="virage:8:g:8" />
+	<voisin from="virage:8:g:8" to="virage:8:g:7" />
+	<voisin from="virage:8:g:8" to="virage:8:m:7" />
+	<voisin from="virage:8:g:8" to="case:9:m:0" />
+	<voisin from="virage:8:g:8" to="case:9:g:0" />
+
+	<voisin from="virage:9:d:0" to="case:9:d:6" />
+	<voisin from="virage:9:d:0" to="virage:9:m:0" />
+	<voisin from="virage:9:d:0" to="virage:9:m:1" />
+	<voisin from="virage:9:d:0" to="virage:9:m:2" />
+	<voisin from="virage:9:d:0" to="virage:9:d:1" />
+	<voisin from="virage:9:d:1" to="virage:9:d:0" />
+	<voisin from="virage:9:d:1" to="virage:9:m:2" />
+	<voisin from="virage:9:d:1" to="virage:9:m:3" />
+	<voisin from="virage:9:d:1" to="case:0:d:0" />
+
+	<voisin from="virage:9:m:0" to="case:9:m:5" />
+	<voisin from="virage:9:m:0" to="case:9:d:6" />
+	<voisin from="virage:9:m:0" to="virage:9:d:0" />
+	<voisin from="virage:9:m:0" to="virage:9:m:1" />
+	<voisin from="virage:9:m:0" to="virage:9:g:1" />
+	<voisin from="virage:9:m:0" to="virage:9:g:0" />
+	<voisin from="virage:9:m:1" to="virage:9:m:0" />
+	<voisin from="virage:9:m:1" to="virage:9:d:0" />
+	<voisin from="virage:9:m:1" to="virage:9:m:2" />
+	<voisin from="virage:9:m:1" to="virage:9:g:3" />
+	<voisin from="virage:9:m:1" to="virage:9:g:2" />
+	<voisin from="virage:9:m:1" to="virage:9:g:1" />
+	<voisin from="virage:9:m:2" to="virage:9:m:1" />
+	<voisin from="virage:9:m:2" to="virage:9:d:0" />
+	<voisin from="virage:9:m:2" to="virage:9:d:1" />
+	<voisin from="virage:9:m:2" to="virage:9:m:3" />
+	<voisin from="virage:9:m:2" to="virage:9:g:4" />
+	<voisin from="virage:9:m:2" to="virage:9:g:3" />
+	<voisin from="virage:9:m:3" to="virage:9:m:2" />
+	<voisin from="virage:9:m:3" to="virage:9:d:1" />
+	<voisin from="virage:9:m:3" to="case:0:d:0" />
+	<voisin from="virage:9:m:3" to="case:0:m:0" />
+	<voisin from="virage:9:m:3" to="virage:9:g:5" />
+	<voisin from="virage:9:m:3" to="virage:9:g:4" />
+
+	<voisin from="virage:9:g:0" to="case:9:g:4" />
+	<voisin from="virage:9:g:0" to="case:9:m:5" />
+	<voisin from="virage:9:g:0" to="virage:9:m:0" />
+	<voisin from="virage:9:g:0" to="virage:9:g:1" />
+	<voisin from="virage:9:g:1" to="virage:9:g:0" />
+	<voisin from="virage:9:g:1" to="virage:9:m:0" />
+	<voisin from="virage:9:g:1" to="virage:9:m:1" />
+	<voisin from="virage:9:g:1" to="virage:9:g:2" />
+	<voisin from="virage:9:g:2" to="virage:9:g:1" />
+	<voisin from="virage:9:g:2" to="virage:9:m:1" />
+	<voisin from="virage:9:g:2" to="virage:9:g:3" />
+	<voisin from="virage:9:g:3" to="virage:9:g:2" />
+	<voisin from="virage:9:g:3" to="virage:9:m:1" />
+	<voisin from="virage:9:g:3" to="virage:9:m:2" />
+	<voisin from="virage:9:g:3" to="virage:9:g:4" />
+	<voisin from="virage:9:g:4" to="virage:9:g:3" />
+	<voisin from="virage:9:g:4" to="virage:9:m:2" />
+	<voisin from="virage:9:g:4" to="virage:9:m:3" />
+	<voisin from="virage:9:g:4" to="virage:9:g:5" />
+	<voisin from="virage:9:g:5" to="virage:9:g:4" />
+	<voisin from="virage:9:g:5" to="virage:9:m:3" />
+	<voisin from="virage:9:g:5" to="case:0:m:0" />
+	<voisin from="virage:9:g:5" to="case:0:g:0" />
+    </voisins>
+</circuit>

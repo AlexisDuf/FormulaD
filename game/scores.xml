@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.7.0_40" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Model.RecordingGame.Score">
+    <void property="circuitName">
+     <string>Circuit de Monaco</string>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1397380231825</long>
+     </object>
+    </void>
+    <void property="loosePlayers">
+     <object class="java.util.LinkedList">
+      <void method="add">
+       <object class="Model.RecordingGame.ScorePlayer">
+        <void property="car">
+         <string>Ferrari1</string>
+        </void>
+        <void property="name">
+         <string>HumanPlayer0</string>
+        </void>
+        <void property="numberOfThrow">
+         <int>7</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Model.RecordingGame.ScorePlayer">
+        <void property="car">
+         <string>Ferrari2</string>
+        </void>
+        <void property="name">
+         <string>ComputerPlayer0</string>
+        </void>
+        <void property="numberOfThrow">
+         <int>7</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="winSortedPlayers">
+     <object class="java.util.LinkedList"/>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Model.RecordingGame.Score">
+    <void property="circuitName">
+     <string>Circuit de Monaco</string>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1397464963938</long>
+     </object>
+    </void>
+    <void property="loosePlayers">
+     <object class="java.util.LinkedList">
+      <void method="add">
+       <object class="Model.RecordingGame.ScorePlayer">
+        <void property="car">
+         <string>Ferrari1</string>
+        </void>
+        <void property="name">
+         <string>HumanPlayer0</string>
+        </void>
+        <void property="numberOfThrow">
+         <int>9</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Model.RecordingGame.ScorePlayer">
+        <void property="car">
+         <string>Ferrari2</string>
+        </void>
+        <void property="name">
+         <string>ComputerPlayer0</string>
+        </void>
+        <void property="numberOfThrow">
+         <int>18</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="winSortedPlayers">
+     <object class="java.util.LinkedList"/>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Model.RecordingGame.Score">
+    <void property="circuitName">
+     <string>Circuit de Monaco</string>
+    </void>
+    <void property="date">
+     <object class="java.util.Date">
+      <long>1397466390531</long>
+     </object>
+    </void>
+    <void property="loosePlayers">
+     <object class="java.util.LinkedList">
+      <void method="add">
+       <object class="Model.RecordingGame.ScorePlayer">
+        <void property="car">
+         <string>Ferrari1</string>
+        </void>
+        <void property="name">
+         <string>Player0</string>
+        </void>
+        <void property="numberOfThrow">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Model.RecordingGame.ScorePlayer">
+        <void property="car">
+         <string>RedBullRenault</string>
+        </void>
+        <void property="name">
+         <string>Player2</string>
+        </void>
+        <void property="numberOfThrow">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="Model.RecordingGame.ScorePlayer">
+        <void property="car">
+         <string>Ferrari2</string>
+        </void>
+        <void property="name">
+         <string>Player1</string>
+        </void>
+        <void property="numberOfThrow">
+         <int>4</int>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+    <void property="winSortedPlayers">
+     <object class="java.util.LinkedList"/>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
